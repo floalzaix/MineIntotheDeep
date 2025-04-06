@@ -1,0 +1,14 @@
+C:\Users\floal\Documents\General\Cours\Sup\Eseo\E3e\S2\24H\Entrainement\MineIntoTheDeep\obj\Debug\net8.0\MineIntoTheDeep.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\floal\Documents\General\Cours\Sup\Eseo\E3e\S2\24H\Entrainement\MineIntoTheDeep\obj\Debug\net8.0\MineIntoTheDeep.AssemblyInfoInputs.cache
+C:\Users\floal\Documents\General\Cours\Sup\Eseo\E3e\S2\24H\Entrainement\MineIntoTheDeep\obj\Debug\net8.0\MineIntoTheDeep.AssemblyInfo.cs
+C:\Users\floal\Documents\General\Cours\Sup\Eseo\E3e\S2\24H\Entrainement\MineIntoTheDeep\obj\Debug\net8.0\MineIntoTheDeep.csproj.CoreCompileInputs.cache
+C:\Users\floal\Documents\General\Cours\Sup\Eseo\E3e\S2\24H\Entrainement\MineIntoTheDeep\bin\Debug\net8.0\MineIntoTheDeep.exe
+C:\Users\floal\Documents\General\Cours\Sup\Eseo\E3e\S2\24H\Entrainement\MineIntoTheDeep\bin\Debug\net8.0\MineIntoTheDeep.deps.json
+C:\Users\floal\Documents\General\Cours\Sup\Eseo\E3e\S2\24H\Entrainement\MineIntoTheDeep\bin\Debug\net8.0\MineIntoTheDeep.runtimeconfig.json
+C:\Users\floal\Documents\General\Cours\Sup\Eseo\E3e\S2\24H\Entrainement\MineIntoTheDeep\bin\Debug\net8.0\MineIntoTheDeep.dll
+C:\Users\floal\Documents\General\Cours\Sup\Eseo\E3e\S2\24H\Entrainement\MineIntoTheDeep\bin\Debug\net8.0\MineIntoTheDeep.pdb
+C:\Users\floal\Documents\General\Cours\Sup\Eseo\E3e\S2\24H\Entrainement\MineIntoTheDeep\obj\Debug\net8.0\MineIntoTheDeep.dll
+C:\Users\floal\Documents\General\Cours\Sup\Eseo\E3e\S2\24H\Entrainement\MineIntoTheDeep\obj\Debug\net8.0\refint\MineIntoTheDeep.dll
+C:\Users\floal\Documents\General\Cours\Sup\Eseo\E3e\S2\24H\Entrainement\MineIntoTheDeep\obj\Debug\net8.0\MineIntoTheDeep.pdb
+C:\Users\floal\Documents\General\Cours\Sup\Eseo\E3e\S2\24H\Entrainement\MineIntoTheDeep\obj\Debug\net8.0\MineIntoTheDeep.genruntimeconfig.cache
+C:\Users\floal\Documents\General\Cours\Sup\Eseo\E3e\S2\24H\Entrainement\MineIntoTheDeep\obj\Debug\net8.0\ref\MineIntoTheDeep.dll
