@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using MineIntoTheDeep.Helpers;
 using MineIntoTheDeep.Models;
@@ -169,7 +170,11 @@ namespace MineIntoTheDeep.models
                 {
                     if (TopLayer[x, y] == null || TopLayer[x, y].Broken())
                     {
-                        TopLayer[x, y] = Tunnels[x, y].Pop();
+                        if (Tunnels[x, y] == null) {
+                            // TODO
+                        } else {
+                            TopLayer[x, y] = Tunnels[x, y].Pop();
+                        }
                     }
                 }
             }
@@ -177,14 +182,24 @@ namespace MineIntoTheDeep.models
 
         public bool MineurThere(int x, int y)
         {
-            foreach (Mineur m in Mineurs)
+            foreach (Bloc b in Mineurs.Select(m => m.BlocUnder))
             {
-                if (m.BlocUnder.X == x && m.BlocUnder.Y == y)
+                if (b.X == x && b.Y == y)
                 {
                     return true;
                 }
             }
             return false;
+        }
+
+        public Mineur? GetMineurThere(int x, int y) {
+            foreach (Mineur m in Mineurs) {
+                if (m.BlocUnder.X == x && m.BlocUnder.Y == y)
+                {
+                    return m;
+                }
+            }
+            return null;
         }
 
         public Bloc GetBlocUnder(int x, int y)
@@ -236,11 +251,19 @@ namespace MineIntoTheDeep.models
             }
 
             // Strates
-            bld.Append("Strates :\n\n");
+            bld.Append("Strates :\n");
             foreach (Strate s in Strates)
             {
-                bld.Append(s);
                 bld.Append('\n');
+                bld.Append(s);
+            }
+
+            // Mineurs
+            bld.Append("Mineurs :\n\n");
+            foreach (Mineur m in Mineurs)
+            {
+                bld.Append('\n');
+                bld.Append(m);
             }
 
             return bld.ToString();

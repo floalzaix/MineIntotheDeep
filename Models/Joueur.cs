@@ -48,9 +48,10 @@ namespace MineIntoTheDeep.Models
         /// </summary>
         /// <exception cref="InvalidOperationException"> If there is no space on the carte </exception>
         /// <returns> True if success and false else </returns>
-        public bool Embaucher()
+        private bool Embaucher()
         {
-            if (Mineurs.Count >= NB_MAX_MINEURS) {
+            if (Mineurs.Count >= NB_MAX_MINEURS)
+            {
                 return false;
             }
 
@@ -83,7 +84,7 @@ namespace MineIntoTheDeep.Models
         /// </summary>
         /// <param name="index"> The index of the miner </param>
         /// <returns> True if the function succeeded false otherwise </returns>
-        public bool Retirer(int index)
+        private bool Retirer(int index)
         {
             try
             {
@@ -105,7 +106,7 @@ namespace MineIntoTheDeep.Models
         /// <param name="x"> The new abscisse </param>
         /// <param name="y"> The new ordonnee </param>
         /// <returns> True if success false otherwise </returns>
-        public bool Deplacer(int index, int x, int y)
+        private bool Deplacer(int index, int x, int y)
         {
             if (!(0 <= index && index < Mineurs.Count && 0 <= x && x < Carte.Size && 0 <= y && y < Carte.Size))
             {
@@ -135,7 +136,7 @@ namespace MineIntoTheDeep.Models
         /// </summary>
         /// <param name="index"> The index of the miner </param>
         /// <returns> True if it succeded false otherwise </returns>
-        public bool Ameliorer(int index)
+        private bool Ameliorer(int index)
         {
             try
             {
@@ -161,7 +162,7 @@ namespace MineIntoTheDeep.Models
         /// </summary>
         /// <param name="index"> The player </param>
         /// <returns> True if success false else </returns>
-        public bool Saboter(int index)
+        private bool Saboter(int index)
         {
             try
             {
@@ -180,7 +181,7 @@ namespace MineIntoTheDeep.Models
         /// score of the player 0 ..
         /// </summary>
         /// <returns> The scores the way it has been described in the summary </returns>
-        public string GetScores()
+        private string GetScores()
         {
             StringBuilder bld = new("SCORES");
 
@@ -199,7 +200,7 @@ namespace MineIntoTheDeep.Models
         /// <param name="x"> The x coord of the block to scan </param>
         /// <param name="y"> the y coord of the block to scan </param>
         /// <returns> Something like "SONAR|80|450|-1|-1" </returns>
-        public string Sonar(int x, int y)
+        private string Sonar(int x, int y)
         {
             StringBuilder b = new("SONAR");
 
@@ -230,43 +231,116 @@ namespace MineIntoTheDeep.Models
             return b.ToString();
         }
 
-        public bool Action(string action) {
-            if (Actions > 0) {
-                try {
-                    string[] elements = action.Split('|');
-                    switch (elements[0]) {
-                        case "DEPLACER":
-                            Deplacer(int.Parse(elements[1]), int.Parse(elements[2]), int.Parse(elements[3]));
-                            break;
-                        case "RETIRER":
-                            Retirer(int.Parse(elements[1]));
-                            break;
-                        case "EMBAUCHER":
-                            Embaucher();
-                            break;
-                        case "AMELIORER":
-                            Ameliorer(int.Parse(elements[1]));
-                            break;
-                        case "SABOTER":
-                            Saboter(int.Parse(elements[1]));
-                            break;
-                        case "SCORES":
-                            GetScores();
-                            break;
-                        case "SONAR":
-                            Sonar(int.Parse(elements[1]), int.Parse(elements[2]));
-                            break;
-                        default:
-                            return false;
+        /// <summary>
+        /// Gets th current state of the map
+        /// </summary>
+        /// <returns> 
+        /// 1|350|Fer|-1 where the first is depth the second the value of the bloc
+        /// the thirs the type of the bloc and finally the last the joueur number if
+        /// there is a mineur on the bloc.  
+        /// </returns>
+        private string GetCarte()
+        {
+            StringBuilder b = new();
+
+            for (int x = 0; x < Carte.Size; x++)
+            {
+                for (int y = 0; y < Carte.Size; y++)
+                {
+                    // Get the Depth
+                    b.Append(12 - Carte.Tunnels[x, y].Count);
+                    b.Append(';');
+
+                    // Get the value of the bloc
+                    Bloc bloc = Carte.TopLayer[x, y];
+                    b.Append(bloc.GetTotalValue());
+                    b.Append(';');
+
+                    // Type of the bloc
+                    Ore? ore = bloc.Ore;
+                    b.Append((ore != null) ? ore.Name.ToUpper() : "RIEN");
+                    b.Append(';');
+
+                    // Joueur's number on the case if there is a miner on it
+                    Mineur? mineur = Carte.GetMineurThere(x, y);
+                    Joueur? joueur = mineur?.Joueur;
+                    b.Append(
+                        (joueur != null) ? Joueurs.Where(j => j.Carte == Carte)
+                                                  .ToList()
+                                                  .IndexOf(joueur)
+                                                  : -1
+                    );
+                    b.Append('|');
                 }
-                } catch (Exception) {
-                    return false;
+            }
+
+            return b.ToString();
+        }
+
+        /// <summary>
+        /// The function which enables the player to act with any action according to this
+        /// convention : SONAR|1|2
+        /// </summary>
+        /// <param name="action"> The action like "SONAR|1|2" </param>
+        /// <returns> The return of the action executed </returns>
+        public string Action(string action)
+        {
+            if (Actions > 0)
+            {
+                string ret;
+                try
+                {
+                    ret = SelectAction(action);
+                }
+                catch (Exception)
+                {
+                    return "NOK";
                 }
                 Actions--;
 
-                return true;
-            } 
-            return false;
+                return ret;
+            }
+            return "NOK";
+        }
+
+        /// <summary>
+        /// Selects the action to play according to action
+        /// </summary>
+        /// <param name="action"> The action like DEPLACER|0|1|2 </param>
+        /// <returns> The return of the action </returns>
+        private string SelectAction(string action) {
+            string ret = "OK";
+            string[] elements = action.Split('|');
+            switch (elements[0])
+            {
+                case "DEPLACER":
+                    ret = Deplacer(int.Parse(elements[1]), int.Parse(elements[2]), int.Parse(elements[3])) ? ret : "NOK";
+                    break;
+                case "RETIRER":
+                    ret = Retirer(int.Parse(elements[1])) ? ret : "NOK";
+                    break;
+                case "EMBAUCHER":
+                    ret = Embaucher() ? ret : "NOK";
+                    break;
+                case "AMELIORER":
+                    ret = Ameliorer(int.Parse(elements[1])) ? ret : "NOK";
+                    break;
+                case "SABOTER":
+                    ret = Saboter(int.Parse(elements[1])) ? ret : "NOK";
+                    break;
+                case "SCORES":
+                    ret = GetScores();
+                    break;
+                case "SONAR":
+                    ret = Sonar(int.Parse(elements[1]), int.Parse(elements[2]));
+                    break;
+                case "CARTE":
+                    ret = GetCarte();
+                    break;
+                default:
+                    return "NOK";
+            }
+            return ret;
         }
 
         // Overrides
