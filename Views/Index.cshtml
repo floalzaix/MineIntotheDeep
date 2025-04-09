@@ -4,3 +4,20 @@
     ViewData["Title"] = "Home page";
 }
 
+<form method="POST" asp-action="/Index">
+    <input type="number" id="number" asp-for="Seed" value="Seed" />
+    <input type="number" id="number" asp-for="NbOfPlayer" value="Nombre de joueurs" />
+    <input type="submit" id="button" asp-for="Button" value="Nouvelle partie" />
+</form>
+
+<form method="POST" asp-action="/Index">
+    <select id="select" asp-for="GameSelected">
+        @foreach (Guid id in Model.Games) {
+            <option value="@id">@id</option>
+        }
+    </select>
+    <input type="submit" id="button" asp-for="Button" value="Charger une partie" />
+</form>
+
+@Model.Message
+
