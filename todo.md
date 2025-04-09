@@ -1,2 +1,2 @@
-* [x] Terminer la classe jeu MID
+* [ ] Faire l'interface web
 * [ ] Permettre la génération identique seed

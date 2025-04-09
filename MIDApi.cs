@@ -5,7 +5,7 @@ namespace MineIntoTheDeep;
 public static class MIDApi
 {
     // Instance variables
-    private static readonly Dictionary<Guid, MID> games = [];
+    public static Dictionary<Guid, MID> Games { get; }= [];
 
     //
     //  Functions
@@ -21,17 +21,8 @@ public static class MIDApi
     {
         Guid id = Guid.NewGuid();
         MID mid = new(nbOfPlayer);
-        games[id] = mid;
+        Games[id] = mid;
         return id;
-    }
-
-    /// <summary>
-    /// Gets the game given the id
-    /// </summary>
-    /// <param name="id"> The guid of the game </param>
-    /// <returns> The game or null if doesn't exist </returns>
-    public static MID? GetGameById(Guid id) {
-        return games[id] ?? null;
     }
 
     /// <summary>
@@ -42,7 +33,7 @@ public static class MIDApi
     /// <returns> The player's num in the game (relative to the game) -1 if anything went wrong </returns>
     public static int CreatePlayer(Guid gameId, string name) {
         try {
-            return games[gameId].CreatePlayer(name);
+            return Games[gameId].CreatePlayer(name);
         } catch (Exception) {
             return -1;
         }
@@ -56,7 +47,7 @@ public static class MIDApi
     /// <returns> "OK" if everythin went rightfuly "NOK" otherwise </returns>
     public static string StartGame(Guid gameId, bool timer = false) {
         try {
-            MID game = games[gameId];
+            MID game = Games[gameId];
             if (timer) {
                 game.StartWithTimer();
             } else {
@@ -69,14 +60,21 @@ public static class MIDApi
         return "OK";
     }
 
+    /// <summary>
+    /// Makes a query to the game
+    /// </summary>
+    /// <param name="gameId"> The game's id </param>
+    /// <param name="playerNum"> The player's number </param>
+    /// <param name="query"> The action like ACTION|arg|arg|arg ... </param>
+    /// <returns> "OK" or another feedback string or "NOK" if something went wrong </returns>
     public static string Query(Guid gameId, int playerNum, string query) {
         string ret = "OK";
         string action = query.Split("|")[0];
         try {
             if (action == "TOUR_FINI") {
-                games[gameId].Tours?.Next();
+                Games[gameId].Tours?.Next();
             } else {
-                games[gameId].Joueurs[playerNum].Action(query);
+                ret = Games[gameId].Joueurs[playerNum].Action(query);
             }
         } catch (Exception) {
             return "NOK";
