@@ -1,0 +1,1042 @@
+{
+  "Version": 1,
+  "Hash": "k9KFvU0aPocwH+u7zMHpwxovVg97WffXf5830lDd/rE=",
+  "Source": "MineIntoTheDeep",
+  "BasePath": "_content/MineIntoTheDeep",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MineIntoTheDeep\\wwwroot",
+      "Source": "MineIntoTheDeep",
+      "ContentRoot": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\",
+      "BasePath": "_content/MineIntoTheDeep",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\compressed\\13vblij4w3-ispbmovrkd.gz",
+      "SourceId": "MineIntoTheDeep",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/MineIntoTheDeep",
+      "RelativePath": "MineIntoTheDeep#[.{fingerprint=ispbmovrkd}]!.bundle.scp.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\MineIntoTheDeep.bundle.scp.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "r192wam0ur",
+      "Integrity": "T4JlI9UR7KwH502AdsrUCvwqP9KHlmIeoXZ+3DmRa8U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\MineIntoTheDeep.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\compressed\\5d9nj3uc8p-ispbmovrkd.gz",
+      "SourceId": "MineIntoTheDeep",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/MineIntoTheDeep",
+      "RelativePath": "MineIntoTheDeep#[.{fingerprint=ispbmovrkd}]?.styles.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\scopedcss\\bundle\\MineIntoTheDeep.styles.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "r192wam0ur",
+      "Integrity": "T4JlI9UR7KwH502AdsrUCvwqP9KHlmIeoXZ+3DmRa8U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\scopedcss\\bundle\\MineIntoTheDeep.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\compressed\\67z7e5xold-5ipweew5fc.gz",
+      "SourceId": "MineIntoTheDeep",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/MineIntoTheDeep",
+      "RelativePath": "css/site#[.{fingerprint=5ipweew5fc}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\css\\site.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\scopedcss\\bundle\\MineIntoTheDeep.styles.css",
+      "SourceId": "MineIntoTheDeep",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/MineIntoTheDeep",
+      "RelativePath": "MineIntoTheDeep#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "ispbmovrkd",
+      "Integrity": "Uj2nTjuhBFUUL2SY+RtR9TCFTeM3J/smCXBCmtucng0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\scopedcss\\bundle\\MineIntoTheDeep.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\MineIntoTheDeep.bundle.scp.css",
+      "SourceId": "MineIntoTheDeep",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/MineIntoTheDeep",
+      "RelativePath": "MineIntoTheDeep#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "ispbmovrkd",
+      "Integrity": "Uj2nTjuhBFUUL2SY+RtR9TCFTeM3J/smCXBCmtucng0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\MineIntoTheDeep.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\css\\site.css",
+      "SourceId": "MineIntoTheDeep",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\",
+      "BasePath": "_content/MineIntoTheDeep",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/site.5ipweew5fc.css",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\compressed\\67z7e5xold-5ipweew5fc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "1.000000000000"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 09:04:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.5ipweew5fc.css",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 09:04:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.5ipweew5fc.css.gz",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\compressed\\67z7e5xold-5ipweew5fc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 09:04:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\compressed\\67z7e5xold-5ipweew5fc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "1.000000000000"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 09:04:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 09:04:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\compressed\\67z7e5xold-5ipweew5fc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 09:04:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "MineIntoTheDeep.bundle.scp.css",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\compressed\\13vblij4w3-ispbmovrkd.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.010869565217"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "91"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T4JlI9UR7KwH502AdsrUCvwqP9KHlmIeoXZ+3DmRa8U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 12:12:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Uj2nTjuhBFUUL2SY+RtR9TCFTeM3J/smCXBCmtucng0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Uj2nTjuhBFUUL2SY+RtR9TCFTeM3J/smCXBCmtucng0="
+        }
+      ]
+    },
+    {
+      "Route": "MineIntoTheDeep.bundle.scp.css",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\MineIntoTheDeep.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "71"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Uj2nTjuhBFUUL2SY+RtR9TCFTeM3J/smCXBCmtucng0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 12:12:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Uj2nTjuhBFUUL2SY+RtR9TCFTeM3J/smCXBCmtucng0="
+        }
+      ]
+    },
+    {
+      "Route": "MineIntoTheDeep.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\compressed\\13vblij4w3-ispbmovrkd.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "91"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T4JlI9UR7KwH502AdsrUCvwqP9KHlmIeoXZ+3DmRa8U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 12:12:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-T4JlI9UR7KwH502AdsrUCvwqP9KHlmIeoXZ+3DmRa8U="
+        }
+      ]
+    },
+    {
+      "Route": "MineIntoTheDeep.ispbmovrkd.bundle.scp.css",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\compressed\\13vblij4w3-ispbmovrkd.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.010869565217"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "91"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T4JlI9UR7KwH502AdsrUCvwqP9KHlmIeoXZ+3DmRa8U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 12:12:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Uj2nTjuhBFUUL2SY+RtR9TCFTeM3J/smCXBCmtucng0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ispbmovrkd"
+        },
+        {
+          "Name": "label",
+          "Value": "MineIntoTheDeep.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Uj2nTjuhBFUUL2SY+RtR9TCFTeM3J/smCXBCmtucng0="
+        }
+      ]
+    },
+    {
+      "Route": "MineIntoTheDeep.ispbmovrkd.bundle.scp.css",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\MineIntoTheDeep.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "71"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Uj2nTjuhBFUUL2SY+RtR9TCFTeM3J/smCXBCmtucng0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 12:12:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ispbmovrkd"
+        },
+        {
+          "Name": "label",
+          "Value": "MineIntoTheDeep.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Uj2nTjuhBFUUL2SY+RtR9TCFTeM3J/smCXBCmtucng0="
+        }
+      ]
+    },
+    {
+      "Route": "MineIntoTheDeep.ispbmovrkd.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\compressed\\13vblij4w3-ispbmovrkd.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "91"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T4JlI9UR7KwH502AdsrUCvwqP9KHlmIeoXZ+3DmRa8U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 12:12:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ispbmovrkd"
+        },
+        {
+          "Name": "label",
+          "Value": "MineIntoTheDeep.bundle.scp.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-T4JlI9UR7KwH502AdsrUCvwqP9KHlmIeoXZ+3DmRa8U="
+        }
+      ]
+    },
+    {
+      "Route": "MineIntoTheDeep.ispbmovrkd.styles.css",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\compressed\\5d9nj3uc8p-ispbmovrkd.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.010869565217"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "91"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T4JlI9UR7KwH502AdsrUCvwqP9KHlmIeoXZ+3DmRa8U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 12:12:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Uj2nTjuhBFUUL2SY+RtR9TCFTeM3J/smCXBCmtucng0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ispbmovrkd"
+        },
+        {
+          "Name": "label",
+          "Value": "MineIntoTheDeep.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Uj2nTjuhBFUUL2SY+RtR9TCFTeM3J/smCXBCmtucng0="
+        }
+      ]
+    },
+    {
+      "Route": "MineIntoTheDeep.ispbmovrkd.styles.css",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\scopedcss\\bundle\\MineIntoTheDeep.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "71"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Uj2nTjuhBFUUL2SY+RtR9TCFTeM3J/smCXBCmtucng0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 12:12:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ispbmovrkd"
+        },
+        {
+          "Name": "label",
+          "Value": "MineIntoTheDeep.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Uj2nTjuhBFUUL2SY+RtR9TCFTeM3J/smCXBCmtucng0="
+        }
+      ]
+    },
+    {
+      "Route": "MineIntoTheDeep.ispbmovrkd.styles.css.gz",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\compressed\\5d9nj3uc8p-ispbmovrkd.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "91"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T4JlI9UR7KwH502AdsrUCvwqP9KHlmIeoXZ+3DmRa8U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 12:12:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ispbmovrkd"
+        },
+        {
+          "Name": "label",
+          "Value": "MineIntoTheDeep.styles.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-T4JlI9UR7KwH502AdsrUCvwqP9KHlmIeoXZ+3DmRa8U="
+        }
+      ]
+    },
+    {
+      "Route": "MineIntoTheDeep.styles.css",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\compressed\\5d9nj3uc8p-ispbmovrkd.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.010869565217"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "91"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T4JlI9UR7KwH502AdsrUCvwqP9KHlmIeoXZ+3DmRa8U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 12:12:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Uj2nTjuhBFUUL2SY+RtR9TCFTeM3J/smCXBCmtucng0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Uj2nTjuhBFUUL2SY+RtR9TCFTeM3J/smCXBCmtucng0="
+        }
+      ]
+    },
+    {
+      "Route": "MineIntoTheDeep.styles.css",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\scopedcss\\bundle\\MineIntoTheDeep.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "71"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Uj2nTjuhBFUUL2SY+RtR9TCFTeM3J/smCXBCmtucng0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 12:12:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Uj2nTjuhBFUUL2SY+RtR9TCFTeM3J/smCXBCmtucng0="
+        }
+      ]
+    },
+    {
+      "Route": "MineIntoTheDeep.styles.css.gz",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\compressed\\5d9nj3uc8p-ispbmovrkd.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "91"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T4JlI9UR7KwH502AdsrUCvwqP9KHlmIeoXZ+3DmRa8U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 12:12:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-T4JlI9UR7KwH502AdsrUCvwqP9KHlmIeoXZ+3DmRa8U="
+        }
+      ]
+    }
+  ]
+}

@@ -30,11 +30,12 @@ namespace MineIntoTheDeep.Models.Blocs.Usine
             }
 
             // Generating the bloc with the appropriate ore or none
-            int quantity = RandomGenerator.GenerateRandomInt(CurrentStrate.MinQuantity, CurrentStrate.MaxQuantity);
+            int quantity = 0;
             Ore? ore = null;
             
             if (CurrentStrate.OreRate >= RandomGenerator.GenerateRandomDouble(0, 1))
             {
+                quantity = RandomGenerator.GenerateRandomInt(CurrentStrate.MinQuantity, CurrentStrate.MaxQuantity);
                 double oldCummulatedRate = 0;
                 double rand = RandomGenerator.GenerateRandomDouble(0, 1);
                 foreach(KeyValuePair<Ore, double> e in cummulatedRates) {

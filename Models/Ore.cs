@@ -9,6 +9,7 @@ namespace MineIntoTheDeep.Models
         public static List<Ore> Ores { get; } = [];
 
         // Instance variables
+        public Guid Id { get; init; } = Guid.NewGuid();
         public string Name { get; init; }
         public int Value { get; init; }
         public double[] RateByStrate { get; init; }

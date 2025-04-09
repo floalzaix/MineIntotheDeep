@@ -1,4 +1,3 @@
-using System;
 using MineIntoTheDeep.Models.Pioches;
 
 namespace MineIntoTheDeep.Models.Blocs
@@ -6,6 +5,7 @@ namespace MineIntoTheDeep.Models.Blocs
     public class Bloc(Ore? ore, int x, int y, int quantity, int life = 3)
     {
         // Instance variables
+        public Guid Id { get; init; } = Guid.NewGuid();
         public Ore? Ore { get; init; } = ore;
         public int X { get; init; } = x;
         public int Y { get; init; } = y;
@@ -52,8 +52,7 @@ namespace MineIntoTheDeep.Models.Blocs
         // Overrides
         public override string ToString()
         {
-            string bloc = "Bloc : O " + ((Ore != null) ? Ore.Name : "None") + $" X {X} Y {Y} Q {Quantity} L {Life}";
-            return bloc;
+            return "Bloc : O " + ((Ore != null) ? Ore.Name : "None") + $" X {X} Y {Y} Q {Quantity} L {Life}";
         }
     }
 }

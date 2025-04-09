@@ -1,13 +1,9 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using MineIntoTheDeep.Helpers;
-using MineIntoTheDeep.Models;
 using MineIntoTheDeep.Models.Blocs;
 using MineIntoTheDeep.Models.Blocs.Usine;
 
-namespace MineIntoTheDeep.models
+namespace MineIntoTheDeep.Models
 {
     public class Carte
     {
@@ -31,6 +27,7 @@ namespace MineIntoTheDeep.models
         //
 
         // Properties
+        public Guid Id { get; set; } = Guid.NewGuid();
         public int NumberOfPlayer { get; init; }
         public int Size { get; init; } // Like size x size (6 x 6 or 9 x 9)
         public int Depth { get; init; }
@@ -254,16 +251,16 @@ namespace MineIntoTheDeep.models
             bld.Append("Strates :\n");
             foreach (Strate s in Strates)
             {
-                bld.Append('\n');
                 bld.Append(s);
+                bld.Append('\n');
             }
 
             // Mineurs
             bld.Append("Mineurs :\n\n");
             foreach (Mineur m in Mineurs)
             {
-                bld.Append('\n');
                 bld.Append(m);
+                bld.Append('\n');
             }
 
             return bld.ToString();

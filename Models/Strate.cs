@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using System.Text;
 
 namespace MineIntoTheDeep.Models
@@ -6,6 +5,7 @@ namespace MineIntoTheDeep.Models
     public class Strate(int num, double oreRate, int minQuantity, int maxQuantity)
     {
         // Instance variables
+        public Guid Id { get; init; } = Guid.NewGuid();
         public int Num { get; init; } = num;
         public double OreRate { get; protected init; } = oreRate;
         public Dictionary<Ore, double> Rates { get; init; } = [];

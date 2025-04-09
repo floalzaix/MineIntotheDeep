@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using MineIntoTheDeep.Models.Blocs;
 using MineIntoTheDeep.Models.Pioches;
-using MineIntoTheDeep.models;
 
 namespace MineIntoTheDeep.Models
 {
@@ -15,6 +14,8 @@ namespace MineIntoTheDeep.Models
         public static readonly int NB_MAX_MINEURS = 3;
 
         // Instance variables
+        public Guid Id { get; init; } = Guid.NewGuid();
+        public int Num { get; init; }
         public string Name { get; init; }
         public Carte Carte { get; init; }
         public List<Mineur> Mineurs { get; }
@@ -23,8 +24,9 @@ namespace MineIntoTheDeep.Models
         public int Actions { get; set; }
 
         // Constructors
-        public Joueur(string name, Carte carte, int score = 0)
+        public Joueur(int num, string name, Carte carte, int score = 0)
         {
+            Num = num;
             Name = name;
             Carte = carte;
             Score = score;
@@ -166,7 +168,7 @@ namespace MineIntoTheDeep.Models
         {
             try
             {
-                Joueurs.Where(j => j.Carte == Carte).ToList()[index].Saboted = true;
+                Joueurs.First(j => j.Num == index).Saboted = true;
             }
             catch (Exception)
             {
@@ -346,7 +348,16 @@ namespace MineIntoTheDeep.Models
         // Overrides
         public override string ToString()
         {
-            return $"Joueur : {Name} Mineurs {Mineurs} Score {Score} Saboted {Saboted} Actions {Actions}";
+            StringBuilder b = new ($"Joueur : {Name} Score {Score} Saboted {Saboted} Actions {Actions}\n");
+
+            // Mineurs
+            b.Append("Mineurs :\n");
+            foreach (Mineur m in Mineurs) {
+                b.Append(m);
+                b.Append('\n');
+            }
+
+            return b.ToString();
         }
     }
 }

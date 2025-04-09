@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\MineIntoTheDeep.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MineIntoTheDeep.ispbmovrkd.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.MineIntoTheDeep.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.MineIntoTheDeep.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.MineIntoTheDeep.props",
+      "PackagePath": "build\\MineIntoTheDeep.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.MineIntoTheDeep.props",
+      "PackagePath": "buildMultiTargeting\\MineIntoTheDeep.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.MineIntoTheDeep.props",
+      "PackagePath": "buildTransitive\\MineIntoTheDeep.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

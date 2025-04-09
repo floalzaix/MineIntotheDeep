@@ -6,6 +6,7 @@ namespace MineIntoTheDeep.Models
     public class Mineur
     {
         // Instance variables
+        public Guid Id { get; init; } = Guid.NewGuid();
         public Joueur Joueur { get; init; }
         public Bloc BlocUnder { get; set; }
         public Pioche Pioche { get; set; }
@@ -35,12 +36,13 @@ namespace MineIntoTheDeep.Models
                 Joueur.Saboted = false;
             } else {
                 Joueur.Score += BlocUnder.Mine(Pioche);
+                Joueur.Carte.UpdateTopLayer();
             }
         }
 
         // Overrides
         public override string ToString() {
-            return $"Mineur :\n {Joueur}\nBlocUnder {BlocUnder}\n {Pioche}";
+            return $"Mineur :\nJoueur {Joueur.Name}\nBlocUnder {BlocUnder}\n {Pioche}";
         }
     }
 }

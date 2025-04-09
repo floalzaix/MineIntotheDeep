@@ -12,3 +12,4 @@ C:\Users\floal\Documents\General\Cours\Sup\Eseo\E3e\S2\24H\Entrainement\MineInto
 C:\Users\floal\Documents\General\Cours\Sup\Eseo\E3e\S2\24H\Entrainement\MineIntoTheDeep\obj\Debug\net8.0\MineIntoTheDeep.pdb
 C:\Users\floal\Documents\General\Cours\Sup\Eseo\E3e\S2\24H\Entrainement\MineIntoTheDeep\obj\Debug\net8.0\MineIntoTheDeep.genruntimeconfig.cache
 C:\Users\floal\Documents\General\Cours\Sup\Eseo\E3e\S2\24H\Entrainement\MineIntoTheDeep\obj\Debug\net8.0\ref\MineIntoTheDeep.dll
+C:\Users\floal\Documents\General\Cours\Sup\Eseo\E3e\S2\24H\Entrainement\MineIntoTheDeep\obj\Debug\net8.0\MineIntoTheDeep.sourcelink.json
