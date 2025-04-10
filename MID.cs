@@ -10,6 +10,7 @@ namespace MineIntoTheDeep
         public Carte Carte { get; init; } = new(nbOfPlayer);
         public List<Joueur> Joueurs { get; init; } = [];
         public Tours? Tours { get; set; }
+        public bool Started { get; set; } = false;
 
         //
         //  Functions
@@ -32,6 +33,7 @@ namespace MineIntoTheDeep
         /// </summary>
         public void StartWithoutTimer() {
             Tours = new(Carte, [.. Joueurs]);
+            Started = true;
         }
 
         /// <summary>
@@ -40,6 +42,7 @@ namespace MineIntoTheDeep
         public void StartWithTimer() {
             Tours = new (Carte, [.. Joueurs]);
             Tours.Start();
+            Started = true;
         }
     }
 }

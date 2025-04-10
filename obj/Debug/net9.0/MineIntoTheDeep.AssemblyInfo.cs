@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MineIntoTheDeep")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b384c33a144e3f0d5f39c468a4aad076d061338")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e95eafb6ecd8bd37e295385aa73bf59e7fb733a6")]
 [assembly: System.Reflection.AssemblyProductAttribute("MineIntoTheDeep")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MineIntoTheDeep")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

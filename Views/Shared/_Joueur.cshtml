@@ -1,0 +1,14 @@
+@model Joueur
+
+<div class="joueur">
+    <div>Numéro : @Model.Num</div>
+    <h2>Nom : @Model.Name</h2>
+    @foreach (Mineur _ in @Model.Mineurs) {
+       <div>Mineurs : M</div>
+    }
+    <h3>Score : @Model.Score</h3>
+    <h3>Saboté : @Model.Saboted</h3>
+    @if (Model.Actions > 0) {
+        <h3>T</h3>
+    }
+</div>

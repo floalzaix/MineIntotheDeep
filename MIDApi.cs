@@ -17,7 +17,7 @@ public static class MIDApi
     /// <param name="nbOfPlayer"> The number of the player in the game </param>
     /// <param name="seed"> The seed to generate the same carte if the same nbOfPlayer </param>
     /// <returns> The Guid of the game so that it maybe found in the </returns>
-    public static Guid CreateGame(int nbOfPlayer, int seed)
+    public static Guid CreateGame(int nbOfPlayer, int? seed)
     {
         Guid id = Guid.NewGuid();
         MID mid = new(nbOfPlayer);
@@ -48,10 +48,14 @@ public static class MIDApi
     public static string StartGame(Guid gameId, bool timer = false) {
         try {
             MID game = Games[gameId];
-            if (timer) {
-                game.StartWithTimer();
+                if (game.Joueurs.Count == game.NbOfPlayer) {
+                    if (timer) {
+                    game.StartWithTimer();
+                } else {
+                    game.StartWithoutTimer();
+                }
             } else {
-                game.StartWithoutTimer();
+                return "NOK";
             }
         } catch (Exception) {
             return "NOK";

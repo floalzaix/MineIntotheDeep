@@ -1,30 +1,28 @@
-using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace MineIntoTheDeep.Views;
 
 public class IndexModel() : PageModel
 {
     // Instance variables
-    public List<Guid> Games { get; set; } = [.. MIDApi.Games.Keys];
+    public List<Guid>? Games { get; set; }
     public string Message { get; set; } = "";
 
     // Bind properties
     [BindProperty]
-    public Guid GameSelected {get; set; }
+    public Guid? GameSelected {get; set; }
     [BindProperty]
     public string? Button { get; set; }
     [BindProperty]
-    public int Seed { get; set; } = 1;
+    public int? Seed { get; set; }
     [BindProperty]
     public int? NbOfPlayer { get; set; }
 
 
     public void OnGet()
     {
-        
+        Games = [.. MIDApi.Games.Keys];
     }
 
     public IActionResult OnPost() {
@@ -39,8 +37,13 @@ public class IndexModel() : PageModel
         }
 
         // Storing the game id
-        HttpContext.Session.SetString("GameId", GameSelected.ToString());
+        if (GameSelected == null) {
+            Message = "Erreur : aucune partie sélectionnée";
+            return Page();
+        }
 
-        return Redirect("/");
+        HttpContext.Session.SetString("GameId", ((Guid) GameSelected).ToString());
+
+        return Redirect("/Connection");
     }
 }
