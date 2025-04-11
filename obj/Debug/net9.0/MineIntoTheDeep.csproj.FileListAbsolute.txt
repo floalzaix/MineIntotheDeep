@@ -17,7 +17,6 @@ C:\Users\floal\Documents\General\Cours\Sup\Eseo\E3e\S2\24H\Entrainement\MineInto
 C:\Users\floal\Documents\General\Cours\Sup\Eseo\E3e\S2\24H\Entrainement\MineIntoTheDeep\bin\Debug\net9.0\MineIntoTheDeep.pdb
 C:\Users\floal\Documents\General\Cours\Sup\Eseo\E3e\S2\24H\Entrainement\MineIntoTheDeep\obj\Debug\net9.0\scopedcss\bundle\MineIntoTheDeep.styles.css
 C:\Users\floal\Documents\General\Cours\Sup\Eseo\E3e\S2\24H\Entrainement\MineIntoTheDeep\obj\Debug\net9.0\scopedcss\projectbundle\MineIntoTheDeep.bundle.scp.css
-C:\Users\floal\Documents\General\Cours\Sup\Eseo\E3e\S2\24H\Entrainement\MineIntoTheDeep\obj\Debug\net9.0\compressed\67z7e5xold-5ipweew5fc.gz
 C:\Users\floal\Documents\General\Cours\Sup\Eseo\E3e\S2\24H\Entrainement\MineIntoTheDeep\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\floal\Documents\General\Cours\Sup\Eseo\E3e\S2\24H\Entrainement\MineIntoTheDeep\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\floal\Documents\General\Cours\Sup\Eseo\E3e\S2\24H\Entrainement\MineIntoTheDeep\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -135,3 +134,4 @@ C:\Users\floal\Documents\General\Cours\Sup\Eseo\E3e\S2\24H\Entrainement\MineInto
 C:\Users\floal\Documents\General\Cours\Sup\Eseo\E3e\S2\24H\Entrainement\MineIntoTheDeep\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\floal\Documents\General\Cours\Sup\Eseo\E3e\S2\24H\Entrainement\MineIntoTheDeep\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\floal\Documents\General\Cours\Sup\Eseo\E3e\S2\24H\Entrainement\MineIntoTheDeep\obj\Debug\net9.0\MineInto.51281CE9.Up2Date
+C:\Users\floal\Documents\General\Cours\Sup\Eseo\E3e\S2\24H\Entrainement\MineIntoTheDeep\obj\Debug\net9.0\compressed\67z7e5xold-ux6yaiuseb.gz

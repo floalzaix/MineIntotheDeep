@@ -7,7 +7,7 @@ namespace MineIntoTheDeep.Views
     public class ConnectionModel() : PageModel
     {
         // Class variables
-        public static readonly string GAME_PAGE = "/";
+        public static readonly string GAME_PAGE = "/Game";
 
         // Instance variables
         public string Message { get; set; } = "";
@@ -30,7 +30,7 @@ namespace MineIntoTheDeep.Views
             }
 
             if (Started()) {
-                return Redirect("/");
+                return Redirect(GAME_PAGE);
             }
 
             return Page();

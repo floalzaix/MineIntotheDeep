@@ -1,14 +1,29 @@
 @model Joueur
 
-<div class="joueur">
-    <div>Numéro : @Model.Num</div>
+@{
+    string[] colorMap = ["vert", "bleu", "rouge", "gris", "jaune", "marron", "cyan", "rose", "violet"];
+    string[] colorMapEn = ["green", "blue", "red", "grey", "yellow", "brown", "cyan", "pink", "purple"];
+    var pickaxeMap = new Dictionary<string, string>
+    {
+        { "PiocheBasique", "pickaxe_base" },
+        { "PiocheFer", "pickaxe_iron" },
+        { "PiocheDiamant", "pickaxe_diamond" }
+    };
+}
+
+<div class="joueur" style="background: @(Model.Actions > 0 ? colorMapEn[Model.Num] : "rgba(0, 0, 0, 0.575)");">
     <h2>Nom : @Model.Name</h2>
-    @foreach (Mineur _ in @Model.Mineurs) {
-       <div>Mineurs : M</div>
-    }
-    <h3>Score : @Model.Score</h3>
+    <div>Numéro : @Model.Num</div>
+    <div class="mineurs">
+        @foreach (Mineur m in @Model.Mineurs)
+        {
+            <div class="mineurs_pioche">
+                <div class="coords">X : @m.BlocUnder.X Y : @m.BlocUnder.Y</div>
+                <img src="@Url.Content("~/img/" + (colorMap[Model.Num]) + ".png")" alt="Mineur" />
+                <img src="@Url.Content("~/img/" + (pickaxeMap[m.Pioche.GetType().Name]) + ".png")" alt="Pioche" />
+            </div>
+        }
+    </div>
+    <h3>Score : @Model.Score pts</h3>
     <h3>Saboté : @Model.Saboted</h3>
-    @if (Model.Actions > 0) {
-        <h3>T</h3>
-    }
 </div>

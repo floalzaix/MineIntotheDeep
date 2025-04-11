@@ -49,12 +49,12 @@ namespace MineIntoTheDeep.Models
         /// Adds a miner do the default position 0, 0. If there is one there then 1, 0 same until Size, Size
         /// </summary>
         /// <exception cref="InvalidOperationException"> If there is no space on the carte </exception>
-        /// <returns> True if success and false else </returns>
-        private bool Embaucher()
+        /// <returns> OK if success and NOK else </returns>
+        private string Embaucher()
         {
             if (Mineurs.Count >= NB_MAX_MINEURS)
             {
-                return false;
+                return "NOK";
             }
 
             int x = 0, y = 0;
@@ -78,15 +78,15 @@ namespace MineIntoTheDeep.Models
             Mineurs.Add(mineur);
             Carte.Mineurs.Add(mineur);
 
-            return true;
+            return "OK";
         }
 
         /// <summary>
         /// Removes a miner
         /// </summary>
         /// <param name="index"> The index of the miner </param>
-        /// <returns> True if the function succeeded false otherwise </returns>
-        private bool Retirer(int index)
+        /// <returns> OK if the function succeeded NOK otherwise </returns>
+        private string Retirer(int index)
         {
             try
             {
@@ -96,9 +96,9 @@ namespace MineIntoTheDeep.Models
             }
             catch (Exception)
             {
-                return false;
+                return "NOK";
             }
-            return true;
+            return "OK";
         }
 
         /// <summary>
@@ -107,12 +107,12 @@ namespace MineIntoTheDeep.Models
         /// <param name="index"> The miner's index </param>
         /// <param name="x"> The new abscisse </param>
         /// <param name="y"> The new ordonnee </param>
-        /// <returns> True if success false otherwise </returns>
-        private bool Deplacer(int index, int x, int y)
+        /// <returns> OK if success NOK otherwise </returns>
+        private string Deplacer(int index, int x, int y)
         {
             if (!(0 <= index && index < Mineurs.Count && 0 <= x && x < Carte.Size && 0 <= y && y < Carte.Size))
             {
-                return false;
+                return "NOK";
             }
 
             try
@@ -123,22 +123,24 @@ namespace MineIntoTheDeep.Models
                     Mineur mineur = Mineurs[index];
 
                     mineur.BlocUnder = newBloc;
+                } else {
+                    return "NOK";
                 }
             }
             catch (Exception)
             {
-                return false;
+                return "NOK";
             }
 
-            return true;
+            return "OK";
         }
 
         /// <summary>
         /// Improves the grade of the pioche of a miner.
         /// </summary>
         /// <param name="index"> The index of the miner </param>
-        /// <returns> True if it succeded false otherwise </returns>
-        private bool Ameliorer(int index)
+        /// <returns> OK if it succeded NOK otherwise </returns>
+        private string Ameliorer(int index)
         {
             try
             {
@@ -153,18 +155,18 @@ namespace MineIntoTheDeep.Models
             }
             catch (Exception)
             {
-                return false;
+                return "NOK";
             }
 
-            return true;
+            return "OK";
         }
 
         /// <summary>
         /// Undermine a player by makin its miners skip theirs turn.
         /// </summary>
         /// <param name="index"> The player </param>
-        /// <returns> True if success false else </returns>
-        private bool Saboter(int index)
+        /// <returns> OK if success NOK else </returns>
+        private string Saboter(int index)
         {
             try
             {
@@ -172,10 +174,10 @@ namespace MineIntoTheDeep.Models
             }
             catch (Exception)
             {
-                return false;
+                return "NOK";
             }
 
-            return true;
+            return "OK";
         }
 
         /// <summary>
@@ -298,7 +300,10 @@ namespace MineIntoTheDeep.Models
                 {
                     return "NOK";
                 }
-                Actions--;
+
+                if (ret != "NOK") {
+                    Actions--;
+                }
 
                 return ret;
             }
@@ -311,24 +316,24 @@ namespace MineIntoTheDeep.Models
         /// <param name="action"> The action like DEPLACER|0|1|2 </param>
         /// <returns> The return of the action </returns>
         private string SelectAction(string action) {
-            string ret = "OK";
             string[] elements = action.Split('|');
+            string ret;
             switch (elements[0])
             {
                 case "DEPLACER":
-                    ret = Deplacer(int.Parse(elements[1]), int.Parse(elements[2]), int.Parse(elements[3])) ? ret : "NOK";
+                    ret = Deplacer(int.Parse(elements[1]), int.Parse(elements[2]), int.Parse(elements[3]));
                     break;
                 case "RETIRER":
-                    ret = Retirer(int.Parse(elements[1])) ? ret : "NOK";
+                    ret = Retirer(int.Parse(elements[1]));
                     break;
                 case "EMBAUCHER":
-                    ret = Embaucher() ? ret : "NOK";
+                    ret = Embaucher();
                     break;
                 case "AMELIORER":
-                    ret = Ameliorer(int.Parse(elements[1])) ? ret : "NOK";
+                    ret = Ameliorer(int.Parse(elements[1]));
                     break;
                 case "SABOTER":
-                    ret = Saboter(int.Parse(elements[1])) ? ret : "NOK";
+                    ret = Saboter(int.Parse(elements[1]));
                     break;
                 case "SCORES":
                     ret = GetScores();

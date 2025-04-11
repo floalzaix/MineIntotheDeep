@@ -5,19 +5,26 @@
 }
 
 <form method="POST">
-    <input type="number" id="number" asp-for="Seed" placeholder="Seed" />
+    <input type="text" id="text" asp-for="Name" placeholder="Nom" />
     <input type="number" id="number" asp-for="NbOfPlayer" placeholder="Nombre de joueurs" />
+    <input type="number" id="number" asp-for="Seed" placeholder="Seed (vide par defaut)" />
     <input type="submit" id="button" asp-for="Button" value="Nouvelle partie" />
 </form>
 
 <form method="POST">
     <select id="select" asp-for="GameSelected">
-        @foreach (Guid id in Model.Games) {
-            <option value="@id">@id</option>
+        @if (Model.Games != null) {
+            @foreach (Guid id in Model.Games) {
+                <option value="@id">@(MIDApi.Games[id].Name)</option>
+            }
         }
     </select>
     <input type="submit" id="button" asp-for="Button" value="Charger une partie" />
 </form>
 
-@Model.Message
+@if (Model.Message != null) {
+    <div class="erreur">
+        @Model.Message
+    </div>
+}
 

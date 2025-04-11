@@ -17,10 +17,10 @@ public static class MIDApi
     /// <param name="nbOfPlayer"> The number of the player in the game </param>
     /// <param name="seed"> The seed to generate the same carte if the same nbOfPlayer </param>
     /// <returns> The Guid of the game so that it maybe found in the </returns>
-    public static Guid CreateGame(int nbOfPlayer, int? seed)
+    public static Guid CreateGame(string name, int nbOfPlayer, int? seed)
     {
         Guid id = Guid.NewGuid();
-        MID mid = new(nbOfPlayer);
+        MID mid = new(name, nbOfPlayer);
         Games[id] = mid;
         return id;
     }

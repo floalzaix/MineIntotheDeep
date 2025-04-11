@@ -2,10 +2,11 @@ using MineIntoTheDeep.Models;
 
 namespace MineIntoTheDeep
 {
-    public class MID(int nbOfPlayer)
+    public class MID(string name, int nbOfPlayer)
     {
         // Instance variables
         public Guid Id { get; init; } = Guid.NewGuid();
+        public string Name { get; init; } = name;
         public int NbOfPlayer { get; init; } = nbOfPlayer;
         public Carte Carte { get; init; } = new(nbOfPlayer);
         public List<Joueur> Joueurs { get; init; } = [];

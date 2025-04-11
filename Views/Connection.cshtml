@@ -4,10 +4,17 @@
     ViewData["Title"] = "Connection";
 }
 
-<form method="POST">
-    <input type="text" id="text" asp-for="Name" maxlength="50" placeholder="Pseudo" />  
-    <input type="Submit" id="button" asp-for="Button" value="Nouveau joueur" />  
-</form>
+<div class="fonctions">
+    <form method="POST">
+        <input type="text" id="text" asp-for="Name" maxlength="50" placeholder="Pseudo" />  
+        <input type="Submit" id="button" asp-for="Button" value="Nouveau joueur" />  
+    </form>
+
+    <form method="POST">
+        <input type="submit" id="button" asp-for="Button" value="Start" />
+        <input type="submit" id="button" asp-for="Button" value="Start avec temps" />
+    </form>
+</div>
 
 <div class="joueurs">
     @if (Model.Joueurs != null) {
@@ -17,9 +24,9 @@
     }
 </div>
 
-<form method="POST">
-    <input type="submit" id="button" asp-for="Button" value="Start" />
-    <input type="submit" id="button" asp-for="Button" value="Start avec temps" />
-</form>
 
-@Model.Message
+@if (Model.Message != null) {
+    <div class="erreur">
+        @Model.Message
+    </div>
+}

@@ -56,6 +56,7 @@ namespace MineIntoTheDeep.Models
                 Index = 0;
                 Turns.Enqueue(Turns.Dequeue());
                 CurrentTurns = [.. Turns];
+                Carte.Miner();
             }
             Joueurs[CurrentTurns[Index]].Actions = NB_MAX_ACTIONS_PER_TURN;
             if (en)

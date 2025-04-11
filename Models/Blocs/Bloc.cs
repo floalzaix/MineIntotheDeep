@@ -27,7 +27,7 @@ namespace MineIntoTheDeep.Models.Blocs
         {
             if (Life <= 0)
             {
-                throw new InvalidOperationException("The life bloc was already broken but mined again !");
+                throw new InvalidOperationException("The bloc was already broken but mined again !");
             }
             Life -= pioche.Damages;
             return GetTotalValue() * ((Life <= 0) ? 1 : 0);

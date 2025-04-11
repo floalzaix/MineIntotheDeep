@@ -9,6 +9,78 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\base.png",
+      "PackagePath": "staticwebassets\\img\\base.png"
+    },
+    {
+      "Id": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\bleu.png",
+      "PackagePath": "staticwebassets\\img\\bleu.png"
+    },
+    {
+      "Id": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\cyan.png",
+      "PackagePath": "staticwebassets\\img\\cyan.png"
+    },
+    {
+      "Id": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\diamant.png",
+      "PackagePath": "staticwebassets\\img\\diamant.png"
+    },
+    {
+      "Id": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\fer.png",
+      "PackagePath": "staticwebassets\\img\\fer.png"
+    },
+    {
+      "Id": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\fond.png",
+      "PackagePath": "staticwebassets\\img\\fond.png"
+    },
+    {
+      "Id": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\gris.png",
+      "PackagePath": "staticwebassets\\img\\gris.png"
+    },
+    {
+      "Id": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\jaune.png",
+      "PackagePath": "staticwebassets\\img\\jaune.png"
+    },
+    {
+      "Id": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\marron.png",
+      "PackagePath": "staticwebassets\\img\\marron.png"
+    },
+    {
+      "Id": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\mithril.png",
+      "PackagePath": "staticwebassets\\img\\mithril.png"
+    },
+    {
+      "Id": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\or.png",
+      "PackagePath": "staticwebassets\\img\\or.png"
+    },
+    {
+      "Id": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\pickaxe_base.png",
+      "PackagePath": "staticwebassets\\img\\pickaxe_base.png"
+    },
+    {
+      "Id": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\pickaxe_diamond.png",
+      "PackagePath": "staticwebassets\\img\\pickaxe_diamond.png"
+    },
+    {
+      "Id": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\pickaxe_iron.png",
+      "PackagePath": "staticwebassets\\img\\pickaxe_iron.png"
+    },
+    {
+      "Id": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\rose.png",
+      "PackagePath": "staticwebassets\\img\\rose.png"
+    },
+    {
+      "Id": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\rouge.png",
+      "PackagePath": "staticwebassets\\img\\rouge.png"
+    },
+    {
+      "Id": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\vert.png",
+      "PackagePath": "staticwebassets\\img\\vert.png"
+    },
+    {
+      "Id": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\violet.png",
+      "PackagePath": "staticwebassets\\img\\violet.png"
+    },
+    {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.MineIntoTheDeep.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

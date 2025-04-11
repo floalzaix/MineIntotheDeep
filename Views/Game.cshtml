@@ -1,0 +1,82 @@
+@page
+@model GameModel
+@{
+    ViewData["Title"] = "Game";
+    int size = 70;
+}
+
+@if (Model.Carte != null) {
+    <div class="game">
+        <div class="carte" style="position: relative; width: @(Model.Carte.Size * size)px; min-width: @(Model.Carte.Size * size)px; height: @(Model.Carte.Size * size)px; min-height: @(Model.Carte.Size * size)px;">
+                @for (int x = 0; x < Model.Carte.Size; x++) {
+                    for (int y = 0; y < Model.Carte.Size; y++) {
+                        <div style="position: absolute; left: @(x* size)px; top: @(y* size)px; width: @size px; height: @size px;">
+                            @{
+                                Mineur? mineur = Model.Carte.GetMineurThere(x, y);
+                                if (mineur != null && Model.CurrentPlayer == mineur.Joueur.Num) {
+                                    <a href="/Game?preQuery=@Model.PreQuery&query=MINEUR|@(mineur.GetNum())">
+                                        @await Html.PartialAsync("_Mineur", mineur)
+                                    </a>
+                                } else if (mineur != null) {
+                                    @await Html.PartialAsync("_Mineur", mineur)
+                                }
+                            }
+                            <a href="/Game?preQuery=@Model.PreQuery&query=CASE|@x|@y">
+                                @await Html.PartialAsync("_Bloc", Model.Carte.TopLayer[x, y])
+                            </a>
+                        </div>
+                    }
+                }
+        </div>
+
+        <div class="actions">
+            <div class="joueurs">
+                @if (Model.Joueurs != null) {
+                    @foreach (Joueur joueur in Model.Joueurs) {
+                        if (Model.CurrentPlayer == joueur.Num) {
+                            @await Html.PartialAsync("_Joueur", joueur)
+                        } else {
+                            <a href="/Game?preQuery=@Model.PreQuery&query=JOUEUR|@(joueur.Num)">
+                                @await Html.PartialAsync("_Joueur", joueur)
+                            </a>
+                        }
+                    }
+                }
+            </div>
+
+            <div class="buttons">
+                <a class="button" href="/Game?preQuery=@Model.PreQuery&query=EMBAUCHER">
+                    EMBAUCHER
+                </a>
+
+                <a class="button" href="/Game?preQuery=@Model.PreQuery&query=AMELIORER">
+                    AMELIORER
+                </a>
+
+                <a class="button" href="/Game?preQuery=@Model.PreQuery&query=RETIRER">
+                    RETIRER
+                </a>
+
+                <a class="button" href="/Game?preQuery=@Model.PreQuery&query=SABOTER">
+                    SABOTER
+                </a>
+
+                <a class="button" href="/Game?preQuery=@Model.PreQuery&query=SONAR">
+                    SONAR
+                </a>
+
+                <a class="button" href="/Game?preQuery=@Model.PreQuery&query=TOUR_FINI">
+                    FIN DE TOUR
+                </a>
+            </div>
+
+            <div id="res">Résultat : @Model.ResQuery</div>
+        </div>
+    </div>
+}
+
+@if (Model.Message != null) {
+    <div class="erreur">
+        @Model.Message
+    </div>
+}

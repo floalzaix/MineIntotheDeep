@@ -6,7 +6,7 @@ namespace MineIntoTheDeep.Views;
 public class IndexModel() : PageModel
 {
     // Instance variables
-    public List<Guid>? Games { get; set; }
+    public List<Guid>? Games { get; set; } = [.. MIDApi.Games.Keys];
     public string Message { get; set; } = "";
 
     // Bind properties
@@ -15,23 +15,25 @@ public class IndexModel() : PageModel
     [BindProperty]
     public string? Button { get; set; }
     [BindProperty]
-    public int? Seed { get; set; }
+    public string? Name { get; set; }
     [BindProperty]
     public int? NbOfPlayer { get; set; }
+        [BindProperty]
+    public int? Seed { get; set; }
 
 
     public void OnGet()
     {
-        Games = [.. MIDApi.Games.Keys];
+        
     }
 
     public IActionResult OnPost() {
         // Creating the game 
         if (Button == "Nouvelle partie") {
-            if (NbOfPlayer != null && NbOfPlayer >= 1 && NbOfPlayer <= 9) {
-                GameSelected = MIDApi.CreateGame((int) NbOfPlayer, Seed);
+            if (Name != null && NbOfPlayer != null && NbOfPlayer >= 1 && NbOfPlayer <= 9) {
+                GameSelected = MIDApi.CreateGame(Name, (int) NbOfPlayer, Seed);
             } else {
-                Message = "Erreur : Le nombre de joueurs doit être entre 1 et 9";
+                Message = "Erreur : Le nom de partie est vide ou le nombre de joueurs n'est pas entre 1 et 9";
                 return Page();
             }
         }

@@ -1,0 +1,4 @@
+@model Bloc
+
+<img src="@Url.Content("~/img/" + (Model.Ore != null ? Model.Ore.Name.ToLower() : "base") + ".png")" class="bloc"
+alt="Bloc" />

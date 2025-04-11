@@ -167,10 +167,15 @@ namespace MineIntoTheDeep.Models
                 {
                     if (TopLayer[x, y] == null || TopLayer[x, y].Broken())
                     {
-                        if (Tunnels[x, y] == null) {
+                        if (Tunnels[x, y].Count == 0) {
                             // TODO
                         } else {
                             TopLayer[x, y] = Tunnels[x, y].Pop();
+                            
+                            Mineur? m = GetMineurThere(x, y);
+                            if (m != null) {
+                                m.BlocUnder = TopLayer[x, y];
+                            }
                         }
                     }
                 }
@@ -190,13 +195,21 @@ namespace MineIntoTheDeep.Models
         }
 
         public Mineur? GetMineurThere(int x, int y) {
-            foreach (Mineur m in Mineurs) {
-                if (m.BlocUnder.X == x && m.BlocUnder.Y == y)
-                {
-                    return m;
+            if (Mineurs != null) {
+                foreach (Mineur m in Mineurs) {
+                    if (m.BlocUnder.X == x && m.BlocUnder.Y == y)
+                    {
+                        return m;
+                    }
                 }
             }
             return null;
+        }
+
+        public void Miner() {
+            foreach (Mineur m in Mineurs) {
+                m.Mine();
+            }
         }
 
         public Bloc GetBlocUnder(int x, int y)

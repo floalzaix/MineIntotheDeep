@@ -40,6 +40,15 @@ namespace MineIntoTheDeep.Models
             }
         }
 
+
+        /// <summary>
+        /// Gets number of the mineur in the player's mineurs
+        /// </summary>
+        /// <returns> The num of the mineur </returns>
+        public int GetNum() {
+            return Joueur.Mineurs.IndexOf(this);
+        }
+
         // Overrides
         public override string ToString() {
             return $"Mineur :\nJoueur {Joueur.Name}\nBlocUnder {BlocUnder}\n {Pioche}";

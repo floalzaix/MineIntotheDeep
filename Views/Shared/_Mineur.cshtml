@@ -1,0 +1,7 @@
+@model Mineur
+
+@{
+    string[] colorMap = ["vert", "bleu", "rouge", "gris", "jaune", "marron", "cyan", "rose", "violet"];
+}
+
+<img src="@Url.Content("~/img/" + (colorMap[Model.Joueur.Num]) + ".png")" class="mineur" alt="Mineur" />

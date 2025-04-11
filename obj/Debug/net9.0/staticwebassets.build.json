@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "k9KFvU0aPocwH+u7zMHpwxovVg97WffXf5830lDd/rE=",
+  "Hash": "8r1LsOUM+M7crwde/ES/nhiYBv/8QUtBM3pVC6Mnvlw=",
   "Source": "MineIntoTheDeep",
   "BasePath": "_content/MineIntoTheDeep",
   "Mode": "Default",
@@ -59,12 +59,12 @@
       "OriginalItemSpec": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\scopedcss\\bundle\\MineIntoTheDeep.styles.css"
     },
     {
-      "Identity": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\compressed\\67z7e5xold-5ipweew5fc.gz",
+      "Identity": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\compressed\\67z7e5xold-ux6yaiuseb.gz",
       "SourceId": "MineIntoTheDeep",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/MineIntoTheDeep",
-      "RelativePath": "css/site#[.{fingerprint=5ipweew5fc}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=ux6yaiuseb}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -73,8 +73,8 @@
       "RelatedAsset": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "5ipweew5fc",
-      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "Fingerprint": "zhersc48ml",
+      "Integrity": "2fEWbCiTP1ynlQA8ocX59D26LVcIMyTb9QRG5Paq2MM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\css\\site.css"
@@ -136,22 +136,400 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "5ipweew5fc",
-      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "Fingerprint": "ux6yaiuseb",
+      "Integrity": "ogm1JFri68t803FhTBeNpIG2Zz0zJ32kM73fOrKAFhQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\base.png",
+      "SourceId": "MineIntoTheDeep",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\",
+      "BasePath": "_content/MineIntoTheDeep",
+      "RelativePath": "img/base#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p29n4gccsa",
+      "Integrity": "T+4qEXsvYYb5uEwP3rPVjpt+KPqhC1gMrODGUxUdyIw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\base.png"
+    },
+    {
+      "Identity": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\bleu.png",
+      "SourceId": "MineIntoTheDeep",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\",
+      "BasePath": "_content/MineIntoTheDeep",
+      "RelativePath": "img/bleu#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mmudbfis22",
+      "Integrity": "snzE4jhuOweLNyh230fgg+XbJ7EbiQRPWZphM3eVNzI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\bleu.png"
+    },
+    {
+      "Identity": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\cyan.png",
+      "SourceId": "MineIntoTheDeep",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\",
+      "BasePath": "_content/MineIntoTheDeep",
+      "RelativePath": "img/cyan#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e2uuttgo10",
+      "Integrity": "SjuWKu3vf7OnZlnamUJRzA9Rb6AaO1v3Cdxtqs+6h6g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\cyan.png"
+    },
+    {
+      "Identity": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\diamant.png",
+      "SourceId": "MineIntoTheDeep",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\",
+      "BasePath": "_content/MineIntoTheDeep",
+      "RelativePath": "img/diamant#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "llrwyuk904",
+      "Integrity": "uW3L01yXcKRdLFLjXNzehjlf3Y0I9Ct6lq/JIBYamMM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\diamant.png"
+    },
+    {
+      "Identity": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\fer.png",
+      "SourceId": "MineIntoTheDeep",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\",
+      "BasePath": "_content/MineIntoTheDeep",
+      "RelativePath": "img/fer#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pcto5yew3v",
+      "Integrity": "mXc1GkxS9XEchqZArpC9lyG8ZhMhhnHc3cbiNpvwr2Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\fer.png"
+    },
+    {
+      "Identity": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\fond.png",
+      "SourceId": "MineIntoTheDeep",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\",
+      "BasePath": "_content/MineIntoTheDeep",
+      "RelativePath": "img/fond#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a6z1v76wfx",
+      "Integrity": "rjwEqZ77efO8BnZYeNhIsoRAiCKrDWPHMH6zjjXLHI8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\fond.png"
+    },
+    {
+      "Identity": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\gris.png",
+      "SourceId": "MineIntoTheDeep",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\",
+      "BasePath": "_content/MineIntoTheDeep",
+      "RelativePath": "img/gris#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8pro5fmf5x",
+      "Integrity": "xHxEJAnTJdDH5ytRq8IcChPJf1ZKKLsR2hjGUto39Kw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\gris.png"
+    },
+    {
+      "Identity": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\jaune.png",
+      "SourceId": "MineIntoTheDeep",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\",
+      "BasePath": "_content/MineIntoTheDeep",
+      "RelativePath": "img/jaune#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9284gjdg1i",
+      "Integrity": "0Q34c2/y0PwhhPYsapGLWDkVAZrWN+XlnYtEoW+c3yw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\jaune.png"
+    },
+    {
+      "Identity": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\marron.png",
+      "SourceId": "MineIntoTheDeep",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\",
+      "BasePath": "_content/MineIntoTheDeep",
+      "RelativePath": "img/marron#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fspm89qrw8",
+      "Integrity": "D1jFT+YoeqJIExU2/dBaZQJc/2Bt2px0lSYu07wBOmM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\marron.png"
+    },
+    {
+      "Identity": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\mithril.png",
+      "SourceId": "MineIntoTheDeep",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\",
+      "BasePath": "_content/MineIntoTheDeep",
+      "RelativePath": "img/mithril#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kzbj1mnuzi",
+      "Integrity": "kJPdLc846Ui84mNKQ/qrqcxSa9CDiG3XF3iUQwuXkPE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\mithril.png"
+    },
+    {
+      "Identity": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\or.png",
+      "SourceId": "MineIntoTheDeep",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\",
+      "BasePath": "_content/MineIntoTheDeep",
+      "RelativePath": "img/or#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uv3vawi66n",
+      "Integrity": "lnB+5gNhODrh6PcPdDNp2RUKGpTa+JIMMdsJXDAiHTI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\or.png"
+    },
+    {
+      "Identity": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\pickaxe_base.png",
+      "SourceId": "MineIntoTheDeep",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\",
+      "BasePath": "_content/MineIntoTheDeep",
+      "RelativePath": "img/pickaxe_base#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uwopuwf3co",
+      "Integrity": "XlgQxYqiyFw2nXjOBEKRptSMqZclx2ULdYoQPBXy3J0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\pickaxe_base.png"
+    },
+    {
+      "Identity": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\pickaxe_diamond.png",
+      "SourceId": "MineIntoTheDeep",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\",
+      "BasePath": "_content/MineIntoTheDeep",
+      "RelativePath": "img/pickaxe_diamond#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hu8ggrn1xr",
+      "Integrity": "N2O1cOcoEgz0LL8T328kVYso1MFlg9ACQFvWmz5O1c4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\pickaxe_diamond.png"
+    },
+    {
+      "Identity": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\pickaxe_iron.png",
+      "SourceId": "MineIntoTheDeep",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\",
+      "BasePath": "_content/MineIntoTheDeep",
+      "RelativePath": "img/pickaxe_iron#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9nkysqia5y",
+      "Integrity": "+34qcUM2PDWZF4YyLZYnwfBYZgO5GRmovTFc/5voNsQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\pickaxe_iron.png"
+    },
+    {
+      "Identity": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\rose.png",
+      "SourceId": "MineIntoTheDeep",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\",
+      "BasePath": "_content/MineIntoTheDeep",
+      "RelativePath": "img/rose#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fo2mkka6dn",
+      "Integrity": "8cTl0vvFLOmecNNqGytyVbbntrmokn5i62jqjlWPrvc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\rose.png"
+    },
+    {
+      "Identity": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\rouge.png",
+      "SourceId": "MineIntoTheDeep",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\",
+      "BasePath": "_content/MineIntoTheDeep",
+      "RelativePath": "img/rouge#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ft01f4xo02",
+      "Integrity": "nTYVKCr+YFLvW/fl9dz5oXTVCfGVHckbdAaFfywwpTY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\rouge.png"
+    },
+    {
+      "Identity": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\vert.png",
+      "SourceId": "MineIntoTheDeep",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\",
+      "BasePath": "_content/MineIntoTheDeep",
+      "RelativePath": "img/vert#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "czqx6vobki",
+      "Integrity": "KBcC7ET3ZHjRUOiCvVjEWa2RAFWKGU2xaew9PBI0wGg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\vert.png"
+    },
+    {
+      "Identity": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\violet.png",
+      "SourceId": "MineIntoTheDeep",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\",
+      "BasePath": "_content/MineIntoTheDeep",
+      "RelativePath": "img/violet#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hwxrx891b4",
+      "Integrity": "n2oIFtot18D5R/9Eb2pHz3axqLX3Q/jJvrUU6e4LVlw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\violet.png"
     }
   ],
   "Endpoints": [
     {
-      "Route": "css/site.5ipweew5fc.css",
-      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\compressed\\67z7e5xold-5ipweew5fc.gz",
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\compressed\\67z7e5xold-ux6yaiuseb.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "1.000000000000"
+          "Quality": "0.001248439451"
         }
       ],
       "ResponseHeaders": [
@@ -161,19 +539,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "0"
+          "Value": "800"
         },
         {
           "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+          "Value": "\"2fEWbCiTP1ynlQA8ocX59D26LVcIMyTb9QRG5Paq2MM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 09:04:02 GMT"
+          "Value": "Fri, 11 Apr 2025 20:52:32 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -189,26 +567,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+          "Value": "W/\"ogm1JFri68t803FhTBeNpIG2Zz0zJ32kM73fOrKAFhQ=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "5ipweew5fc"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+          "Value": "sha256-ogm1JFri68t803FhTBeNpIG2Zz0zJ32kM73fOrKAFhQ="
         }
       ]
     },
     {
-      "Route": "css/site.5ipweew5fc.css",
+      "Route": "css/site.css",
       "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -218,7 +588,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "0"
+          "Value": "2997"
         },
         {
           "Name": "Content-Type",
@@ -226,11 +596,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+          "Value": "\"ogm1JFri68t803FhTBeNpIG2Zz0zJ32kM73fOrKAFhQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 09:04:02 GMT"
+          "Value": "Fri, 11 Apr 2025 20:52:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ogm1JFri68t803FhTBeNpIG2Zz0zJ32kM73fOrKAFhQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\compressed\\67z7e5xold-ux6yaiuseb.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "800"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2fEWbCiTP1ynlQA8ocX59D26LVcIMyTb9QRG5Paq2MM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 20:52:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2fEWbCiTP1ynlQA8ocX59D26LVcIMyTb9QRG5Paq2MM="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.ux6yaiuseb.css",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\compressed\\67z7e5xold-ux6yaiuseb.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001248439451"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "800"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2fEWbCiTP1ynlQA8ocX59D26LVcIMyTb9QRG5Paq2MM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 20:52:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ogm1JFri68t803FhTBeNpIG2Zz0zJ32kM73fOrKAFhQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ux6yaiuseb"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ogm1JFri68t803FhTBeNpIG2Zz0zJ32kM73fOrKAFhQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.ux6yaiuseb.css",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2997"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ogm1JFri68t803FhTBeNpIG2Zz0zJ32kM73fOrKAFhQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 20:52:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -240,7 +755,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5ipweew5fc"
+          "Value": "ux6yaiuseb"
         },
         {
           "Name": "label",
@@ -248,13 +763,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+          "Value": "sha256-ogm1JFri68t803FhTBeNpIG2Zz0zJ32kM73fOrKAFhQ="
         }
       ]
     },
     {
-      "Route": "css/site.5ipweew5fc.css.gz",
-      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\compressed\\67z7e5xold-5ipweew5fc.gz",
+      "Route": "css/site.ux6yaiuseb.css.gz",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\compressed\\67z7e5xold-ux6yaiuseb.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -263,7 +778,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "0"
+          "Value": "800"
         },
         {
           "Name": "Content-Type",
@@ -271,11 +786,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+          "Value": "\"2fEWbCiTP1ynlQA8ocX59D26LVcIMyTb9QRG5Paq2MM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 09:04:02 GMT"
+          "Value": "Fri, 11 Apr 2025 20:52:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -293,7 +808,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5ipweew5fc"
+          "Value": "ux6yaiuseb"
         },
         {
           "Name": "label",
@@ -301,68 +816,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+          "Value": "sha256-2fEWbCiTP1ynlQA8ocX59D26LVcIMyTb9QRG5Paq2MM="
         }
       ]
     },
     {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\compressed\\67z7e5xold-5ipweew5fc.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "1.000000000000"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "0"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 09:04:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\css\\site.css",
+      "Route": "img/base.p29n4gccsa.png",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\base.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -371,35 +831,43 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "0"
+          "Value": "25425"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/css"
+          "Value": "image/png"
         },
         {
           "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+          "Value": "\"T+4qEXsvYYb5uEwP3rPVjpt+KPqhC1gMrODGUxUdyIw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 09:04:02 GMT"
+          "Value": "Thu, 10 Apr 2025 12:39:45 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "p29n4gccsa"
+        },
+        {
+          "Name": "label",
+          "Value": "img/base.png"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+          "Value": "sha256-T+4qEXsvYYb5uEwP3rPVjpt+KPqhC1gMrODGUxUdyIw="
         }
       ]
     },
     {
-      "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\obj\\Debug\\net9.0\\compressed\\67z7e5xold-5ipweew5fc.gz",
+      "Route": "img/base.png",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\base.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -408,37 +876,1423 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "0"
+          "Value": "25425"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/css"
+          "Value": "image/png"
         },
         {
           "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+          "Value": "\"T+4qEXsvYYb5uEwP3rPVjpt+KPqhC1gMrODGUxUdyIw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 09:04:02 GMT"
+          "Value": "Thu, 10 Apr 2025 12:39:45 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+          "Value": "sha256-T+4qEXsvYYb5uEwP3rPVjpt+KPqhC1gMrODGUxUdyIw="
+        }
+      ]
+    },
+    {
+      "Route": "img/bleu.mmudbfis22.png",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\bleu.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21920"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"snzE4jhuOweLNyh230fgg+XbJ7EbiQRPWZphM3eVNzI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 20:40:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mmudbfis22"
+        },
+        {
+          "Name": "label",
+          "Value": "img/bleu.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-snzE4jhuOweLNyh230fgg+XbJ7EbiQRPWZphM3eVNzI="
+        }
+      ]
+    },
+    {
+      "Route": "img/bleu.png",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\bleu.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21920"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"snzE4jhuOweLNyh230fgg+XbJ7EbiQRPWZphM3eVNzI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 20:40:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-snzE4jhuOweLNyh230fgg+XbJ7EbiQRPWZphM3eVNzI="
+        }
+      ]
+    },
+    {
+      "Route": "img/cyan.e2uuttgo10.png",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\cyan.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21660"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SjuWKu3vf7OnZlnamUJRzA9Rb6AaO1v3Cdxtqs+6h6g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 20:40:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e2uuttgo10"
+        },
+        {
+          "Name": "label",
+          "Value": "img/cyan.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SjuWKu3vf7OnZlnamUJRzA9Rb6AaO1v3Cdxtqs+6h6g="
+        }
+      ]
+    },
+    {
+      "Route": "img/cyan.png",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\cyan.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21660"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SjuWKu3vf7OnZlnamUJRzA9Rb6AaO1v3Cdxtqs+6h6g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 20:40:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SjuWKu3vf7OnZlnamUJRzA9Rb6AaO1v3Cdxtqs+6h6g="
+        }
+      ]
+    },
+    {
+      "Route": "img/diamant.llrwyuk904.png",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\diamant.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36663"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uW3L01yXcKRdLFLjXNzehjlf3Y0I9Ct6lq/JIBYamMM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 12:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "llrwyuk904"
+        },
+        {
+          "Name": "label",
+          "Value": "img/diamant.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uW3L01yXcKRdLFLjXNzehjlf3Y0I9Ct6lq/JIBYamMM="
+        }
+      ]
+    },
+    {
+      "Route": "img/diamant.png",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\diamant.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36663"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uW3L01yXcKRdLFLjXNzehjlf3Y0I9Ct6lq/JIBYamMM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 12:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uW3L01yXcKRdLFLjXNzehjlf3Y0I9Ct6lq/JIBYamMM="
+        }
+      ]
+    },
+    {
+      "Route": "img/fer.pcto5yew3v.png",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\fer.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33901"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mXc1GkxS9XEchqZArpC9lyG8ZhMhhnHc3cbiNpvwr2Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 12:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pcto5yew3v"
+        },
+        {
+          "Name": "label",
+          "Value": "img/fer.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mXc1GkxS9XEchqZArpC9lyG8ZhMhhnHc3cbiNpvwr2Q="
+        }
+      ]
+    },
+    {
+      "Route": "img/fer.png",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\fer.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33901"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mXc1GkxS9XEchqZArpC9lyG8ZhMhhnHc3cbiNpvwr2Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 12:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mXc1GkxS9XEchqZArpC9lyG8ZhMhhnHc3cbiNpvwr2Q="
+        }
+      ]
+    },
+    {
+      "Route": "img/fond.a6z1v76wfx.png",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\fond.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "241038"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rjwEqZ77efO8BnZYeNhIsoRAiCKrDWPHMH6zjjXLHI8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 15:33:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a6z1v76wfx"
+        },
+        {
+          "Name": "label",
+          "Value": "img/fond.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rjwEqZ77efO8BnZYeNhIsoRAiCKrDWPHMH6zjjXLHI8="
+        }
+      ]
+    },
+    {
+      "Route": "img/fond.png",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\fond.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "241038"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rjwEqZ77efO8BnZYeNhIsoRAiCKrDWPHMH6zjjXLHI8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 15:33:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rjwEqZ77efO8BnZYeNhIsoRAiCKrDWPHMH6zjjXLHI8="
+        }
+      ]
+    },
+    {
+      "Route": "img/gris.8pro5fmf5x.png",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\gris.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21619"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xHxEJAnTJdDH5ytRq8IcChPJf1ZKKLsR2hjGUto39Kw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 20:40:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8pro5fmf5x"
+        },
+        {
+          "Name": "label",
+          "Value": "img/gris.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xHxEJAnTJdDH5ytRq8IcChPJf1ZKKLsR2hjGUto39Kw="
+        }
+      ]
+    },
+    {
+      "Route": "img/gris.png",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\gris.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21619"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xHxEJAnTJdDH5ytRq8IcChPJf1ZKKLsR2hjGUto39Kw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 20:40:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xHxEJAnTJdDH5ytRq8IcChPJf1ZKKLsR2hjGUto39Kw="
+        }
+      ]
+    },
+    {
+      "Route": "img/jaune.9284gjdg1i.png",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\jaune.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21627"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0Q34c2/y0PwhhPYsapGLWDkVAZrWN+XlnYtEoW+c3yw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 20:40:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9284gjdg1i"
+        },
+        {
+          "Name": "label",
+          "Value": "img/jaune.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0Q34c2/y0PwhhPYsapGLWDkVAZrWN+XlnYtEoW+c3yw="
+        }
+      ]
+    },
+    {
+      "Route": "img/jaune.png",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\jaune.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21627"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0Q34c2/y0PwhhPYsapGLWDkVAZrWN+XlnYtEoW+c3yw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 20:40:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0Q34c2/y0PwhhPYsapGLWDkVAZrWN+XlnYtEoW+c3yw="
+        }
+      ]
+    },
+    {
+      "Route": "img/marron.fspm89qrw8.png",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\marron.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21653"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"D1jFT+YoeqJIExU2/dBaZQJc/2Bt2px0lSYu07wBOmM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 20:40:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fspm89qrw8"
+        },
+        {
+          "Name": "label",
+          "Value": "img/marron.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-D1jFT+YoeqJIExU2/dBaZQJc/2Bt2px0lSYu07wBOmM="
+        }
+      ]
+    },
+    {
+      "Route": "img/marron.png",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\marron.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21653"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"D1jFT+YoeqJIExU2/dBaZQJc/2Bt2px0lSYu07wBOmM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 20:40:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-D1jFT+YoeqJIExU2/dBaZQJc/2Bt2px0lSYu07wBOmM="
+        }
+      ]
+    },
+    {
+      "Route": "img/mithril.kzbj1mnuzi.png",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\mithril.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27208"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kJPdLc846Ui84mNKQ/qrqcxSa9CDiG3XF3iUQwuXkPE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 12:58:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kzbj1mnuzi"
+        },
+        {
+          "Name": "label",
+          "Value": "img/mithril.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kJPdLc846Ui84mNKQ/qrqcxSa9CDiG3XF3iUQwuXkPE="
+        }
+      ]
+    },
+    {
+      "Route": "img/mithril.png",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\mithril.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27208"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kJPdLc846Ui84mNKQ/qrqcxSa9CDiG3XF3iUQwuXkPE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 12:58:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kJPdLc846Ui84mNKQ/qrqcxSa9CDiG3XF3iUQwuXkPE="
+        }
+      ]
+    },
+    {
+      "Route": "img/or.png",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\or.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36294"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lnB+5gNhODrh6PcPdDNp2RUKGpTa+JIMMdsJXDAiHTI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 12:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lnB+5gNhODrh6PcPdDNp2RUKGpTa+JIMMdsJXDAiHTI="
+        }
+      ]
+    },
+    {
+      "Route": "img/or.uv3vawi66n.png",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\or.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36294"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lnB+5gNhODrh6PcPdDNp2RUKGpTa+JIMMdsJXDAiHTI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 12:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uv3vawi66n"
+        },
+        {
+          "Name": "label",
+          "Value": "img/or.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lnB+5gNhODrh6PcPdDNp2RUKGpTa+JIMMdsJXDAiHTI="
+        }
+      ]
+    },
+    {
+      "Route": "img/pickaxe_base.png",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\pickaxe_base.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1089"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XlgQxYqiyFw2nXjOBEKRptSMqZclx2ULdYoQPBXy3J0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 13:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XlgQxYqiyFw2nXjOBEKRptSMqZclx2ULdYoQPBXy3J0="
+        }
+      ]
+    },
+    {
+      "Route": "img/pickaxe_base.uwopuwf3co.png",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\pickaxe_base.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1089"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XlgQxYqiyFw2nXjOBEKRptSMqZclx2ULdYoQPBXy3J0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 13:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uwopuwf3co"
+        },
+        {
+          "Name": "label",
+          "Value": "img/pickaxe_base.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XlgQxYqiyFw2nXjOBEKRptSMqZclx2ULdYoQPBXy3J0="
+        }
+      ]
+    },
+    {
+      "Route": "img/pickaxe_diamond.hu8ggrn1xr.png",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\pickaxe_diamond.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N2O1cOcoEgz0LL8T328kVYso1MFlg9ACQFvWmz5O1c4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 13:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hu8ggrn1xr"
+        },
+        {
+          "Name": "label",
+          "Value": "img/pickaxe_diamond.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-N2O1cOcoEgz0LL8T328kVYso1MFlg9ACQFvWmz5O1c4="
+        }
+      ]
+    },
+    {
+      "Route": "img/pickaxe_diamond.png",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\pickaxe_diamond.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N2O1cOcoEgz0LL8T328kVYso1MFlg9ACQFvWmz5O1c4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 13:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-N2O1cOcoEgz0LL8T328kVYso1MFlg9ACQFvWmz5O1c4="
+        }
+      ]
+    },
+    {
+      "Route": "img/pickaxe_iron.9nkysqia5y.png",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\pickaxe_iron.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1122"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+34qcUM2PDWZF4YyLZYnwfBYZgO5GRmovTFc/5voNsQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 13:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9nkysqia5y"
+        },
+        {
+          "Name": "label",
+          "Value": "img/pickaxe_iron.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+34qcUM2PDWZF4YyLZYnwfBYZgO5GRmovTFc/5voNsQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/pickaxe_iron.png",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\pickaxe_iron.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1122"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+34qcUM2PDWZF4YyLZYnwfBYZgO5GRmovTFc/5voNsQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 13:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+34qcUM2PDWZF4YyLZYnwfBYZgO5GRmovTFc/5voNsQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/rose.fo2mkka6dn.png",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\rose.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8cTl0vvFLOmecNNqGytyVbbntrmokn5i62jqjlWPrvc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 20:40:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fo2mkka6dn"
+        },
+        {
+          "Name": "label",
+          "Value": "img/rose.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8cTl0vvFLOmecNNqGytyVbbntrmokn5i62jqjlWPrvc="
+        }
+      ]
+    },
+    {
+      "Route": "img/rose.png",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\rose.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8cTl0vvFLOmecNNqGytyVbbntrmokn5i62jqjlWPrvc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 20:40:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8cTl0vvFLOmecNNqGytyVbbntrmokn5i62jqjlWPrvc="
+        }
+      ]
+    },
+    {
+      "Route": "img/rouge.ft01f4xo02.png",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\rouge.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21763"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nTYVKCr+YFLvW/fl9dz5oXTVCfGVHckbdAaFfywwpTY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 20:40:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ft01f4xo02"
+        },
+        {
+          "Name": "label",
+          "Value": "img/rouge.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nTYVKCr+YFLvW/fl9dz5oXTVCfGVHckbdAaFfywwpTY="
+        }
+      ]
+    },
+    {
+      "Route": "img/rouge.png",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\rouge.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21763"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nTYVKCr+YFLvW/fl9dz5oXTVCfGVHckbdAaFfywwpTY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 20:40:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nTYVKCr+YFLvW/fl9dz5oXTVCfGVHckbdAaFfywwpTY="
+        }
+      ]
+    },
+    {
+      "Route": "img/vert.czqx6vobki.png",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\vert.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21776"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KBcC7ET3ZHjRUOiCvVjEWa2RAFWKGU2xaew9PBI0wGg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 20:40:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "czqx6vobki"
+        },
+        {
+          "Name": "label",
+          "Value": "img/vert.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KBcC7ET3ZHjRUOiCvVjEWa2RAFWKGU2xaew9PBI0wGg="
+        }
+      ]
+    },
+    {
+      "Route": "img/vert.png",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\vert.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21776"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KBcC7ET3ZHjRUOiCvVjEWa2RAFWKGU2xaew9PBI0wGg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 20:40:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KBcC7ET3ZHjRUOiCvVjEWa2RAFWKGU2xaew9PBI0wGg="
+        }
+      ]
+    },
+    {
+      "Route": "img/violet.hwxrx891b4.png",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\violet.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22477"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n2oIFtot18D5R/9Eb2pHz3axqLX3Q/jJvrUU6e4LVlw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 20:40:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hwxrx891b4"
+        },
+        {
+          "Name": "label",
+          "Value": "img/violet.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-n2oIFtot18D5R/9Eb2pHz3axqLX3Q/jJvrUU6e4LVlw="
+        }
+      ]
+    },
+    {
+      "Route": "img/violet.png",
+      "AssetFile": "C:\\Users\\floal\\Documents\\General\\Cours\\Sup\\Eseo\\E3e\\S2\\24H\\Entrainement\\MineIntoTheDeep\\wwwroot\\img\\violet.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22477"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n2oIFtot18D5R/9Eb2pHz3axqLX3Q/jJvrUU6e4LVlw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 20:40:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-n2oIFtot18D5R/9Eb2pHz3axqLX3Q/jJvrUU6e4LVlw="
         }
       ]
     },

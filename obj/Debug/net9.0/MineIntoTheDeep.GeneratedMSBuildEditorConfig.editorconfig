@@ -32,12 +32,24 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29ubmVjdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/floal/Documents/General/Cours/Sup/Eseo/E3e/S2/24H/Entrainement/MineIntoTheDeep/Views/Game.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/floal/Documents/General/Cours/Sup/Eseo/E3e/S2/24H/Entrainement/MineIntoTheDeep/Views/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/floal/Documents/General/Cours/Sup/Eseo/E3e/S2/24H/Entrainement/MineIntoTheDeep/Views/Shared/_Bloc.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9CbG9jLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/floal/Documents/General/Cours/Sup/Eseo/E3e/S2/24H/Entrainement/MineIntoTheDeep/Views/Shared/_Joueur.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Kb3VldXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/floal/Documents/General/Cours/Sup/Eseo/E3e/S2/24H/Entrainement/MineIntoTheDeep/Views/Shared/_Mineur.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NaW5ldXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/floal/Documents/General/Cours/Sup/Eseo/E3e/S2/24H/Entrainement/MineIntoTheDeep/Views/_ViewImports.cshtml]
