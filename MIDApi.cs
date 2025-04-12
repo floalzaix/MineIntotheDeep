@@ -31,7 +31,12 @@ public class MIDApi : Hub
     public static Guid CreateGame(string name, int nbOfPlayer, int? seed)
     {
         Guid id = Guid.NewGuid();
-        MID mid = new(id, name, nbOfPlayer);
+        MID mid;
+        if (seed != null) {
+            mid = new(id, name, nbOfPlayer, (int) seed);
+        } else {
+            mid = new(id, name, nbOfPlayer);
+        }
         Games[id] = mid;
         return id;
     }

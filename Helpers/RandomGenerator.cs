@@ -9,11 +9,15 @@ namespace MineIntoTheDeep.Helpers
     public static class RandomGenerator
     {
         // Class instance
-        private static readonly Random random = new();
+        private static Random random = new();
 
         //
         //  Functions
         //
+
+        public static void SetSeed(int seed) {
+            random = new(seed);
+        }
 
         public static int GenerateRandomInt(int a, int b)
         {

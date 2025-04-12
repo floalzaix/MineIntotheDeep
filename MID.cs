@@ -1,18 +1,34 @@
+using MineIntoTheDeep.Helpers;
 using MineIntoTheDeep.Models;
 
 namespace MineIntoTheDeep
 {
-    public class MID(Guid id, string name, int nbOfPlayer)
+    public class MID
     {
         // Instance variables
-        public Guid Id { get; init; } = id;
-        public string Name { get; init; } = name;
-        public int NbOfPlayer { get; init; } = nbOfPlayer;
-        public Carte Carte { get; init; } = new(id, nbOfPlayer);
+        public Guid Id { get; init; }
+        public string Name { get; init; }
+        public int NbOfPlayer { get; init; }
+        public Carte Carte { get; init; }
         public List<Joueur> Joueurs { get; init; } = [];
         public Tours? Tours { get; set; }
         public bool Started { get; set; } = false;
         public List<string> Clients { get; init; } = []; 
+
+        // Constructors
+        public MID(Guid id, string name, int nbOfPlayer) {
+            Id= id;
+            Name = name;
+            NbOfPlayer = nbOfPlayer;
+            Carte = new(id, nbOfPlayer);
+        }
+        public MID(Guid id, string name, int nbOfPlayer, int seed) {
+            RandomGenerator.SetSeed(seed);
+            Id= id;
+            Name = name;
+            NbOfPlayer = nbOfPlayer;
+            Carte = new(id, nbOfPlayer);
+        }
 
         //
         //  Functions

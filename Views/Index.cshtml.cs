@@ -18,7 +18,7 @@ public class IndexModel() : PageModel
     public string? Name { get; set; }
     [BindProperty]
     public int? NbOfPlayer { get; set; }
-        [BindProperty]
+    [BindProperty]
     public int? Seed { get; set; }
 
 
