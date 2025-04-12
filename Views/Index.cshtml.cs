@@ -22,9 +22,10 @@ public class IndexModel() : PageModel
     public int? Seed { get; set; }
 
 
-    public void OnGet()
+    public IActionResult OnGet()
     {
-        
+        HttpContext.Session.Remove("GameId");
+        return Page();
     }
 
     public IActionResult OnPost() {

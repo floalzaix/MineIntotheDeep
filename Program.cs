@@ -19,6 +19,10 @@ builder.Services.AddSession(options => {
 // Adding signalR
 builder.Services.AddSignalR();
 
+// Added authentification for signalR
+builder.Services.AddAuthentication();
+builder.Services.AddAuthorization();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -35,6 +39,7 @@ app.UseRouting();
 
 app.UseSession();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapStaticAssets();

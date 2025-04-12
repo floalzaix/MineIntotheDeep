@@ -1,5 +1,6 @@
 using System.Text;
 using System.Text.RegularExpressions;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.SignalR;
 using MineIntoTheDeep.Models;
 
@@ -76,6 +77,8 @@ public class MIDApi : Hub
                 }
                 game.Tours.OnNext += OnNext;
                 game.Carte.OnEnd += OnEnd;
+
+                HUBCONTEXT.Clients.Group(gameId.ToString()).SendAsync("MESSAGE", "REFRESH");
             }
             else
             {
@@ -111,6 +114,7 @@ public class MIDApi : Hub
             {
                 ret = Games[gameId].Joueurs[playerNum].Action(query);
             }
+            HUBCONTEXT.Clients.Group(gameId.ToString()).SendAsync("MESSAGE", "REFRESH");
         }
         catch (Exception)
         {
@@ -125,13 +129,13 @@ public class MIDApi : Hub
 
     public override Task OnConnectedAsync()
     {
-        Clients.Caller.SendAsync("Connection réussi à l'api !");
+        Clients.Caller.SendAsync("MESSAGE", "Connection réussi à l'api !");
         return base.OnConnectedAsync();
     }
 
     public override Task OnDisconnectedAsync(Exception? exception)
     {
-        Clients.Caller.SendAsync("Déconnecté de l'api !");
+        Clients.Caller.SendAsync("MESSAGE", "Déconnecté de l'api !");
         return base.OnDisconnectedAsync(exception);
     }
 
@@ -145,7 +149,7 @@ public class MIDApi : Hub
     public async Task CreateGameAsync(string name, int nbOfPlayer, int? seed)
     {
         Guid id = CreateGame(name, nbOfPlayer, seed);
-        await Clients.Caller.SendAsync($"GAME|{id}");
+        await Clients.Caller.SendAsync("MESSAGE", $"GAME|{id}");
     }
 
     /// <summary>
@@ -162,7 +166,7 @@ public class MIDApi : Hub
             b.Append(';');
             b.Append(pair.Value.Name);
         }
-        await Clients.Caller.SendAsync(b.ToString());
+        await Clients.Caller.SendAsync("MESSAGE", b.ToString());
     }
 
     /// <summary>
@@ -179,24 +183,48 @@ public class MIDApi : Hub
             if (!Games[id].Started)
             {
                 int num = CreatePlayer(id, name);
-                await Clients.Caller.SendAsync($"Bonjour {name} vous êtes l'équipe|{num}");
-                await Clients.Group(gameId).SendAsync("REFRESH");
+                await Clients.Caller.SendAsync("MESSAGE", $"DEBUT_PARTIE|{num}");
 
-                string? clientId = Context.UserIdentifier;
+                string clientId = Context.ConnectionId;
                 if (clientId != null)
                 {
                     Games[id].Clients.Add(clientId);
                     await Groups.AddToGroupAsync(clientId, gameId);
+                } else {
+                    throw new ArgumentNullException(clientId, "Client ID est null bizarre !");
                 }
+                
+                await Clients.Group(gameId).SendAsync("MESSAGE", "REFRESH");
             }
             else
             {
-                await Clients.Caller.SendAsync($"Game already started !");
+                await Clients.Caller.SendAsync("MESSAGE", $"Game already started !");
             }
         }
         catch (Exception e)
         {
-            await Clients.Caller.SendAsync("ERREUR|" + e.Message);
+            await Clients.Caller.SendAsync("MESSAGE", "ERREUR|" + e.Message);
+        }
+    }
+
+    public async Task ReJoinGameAsync(string gameId, int playerNum)
+    {
+        try
+        {
+            Guid id = Guid.Parse(gameId);
+
+            string clientId = Context.ConnectionId;
+            if (clientId != null)
+            {
+                Games[id].Clients[playerNum] = clientId;
+                await Groups.AddToGroupAsync(clientId, gameId);
+            } else {
+                throw new ArgumentNullException(gameId, "Client ID est null bizarre !");
+            }
+        }
+        catch (Exception e)
+        {
+            await Clients.Caller.SendAsync("MESSAGE", "ERREUR|" + e.Message);
         }
     }
 
@@ -210,12 +238,12 @@ public class MIDApi : Hub
         try
         {
             string res = StartGame(Guid.Parse(gameId));
-            await Clients.Caller.SendAsync(res);
-            await Clients.Group(gameId).SendAsync("REFRESH");
+            await Clients.Group(gameId).SendAsync("MESSAGE", "REFRESH");
+            await Clients.Caller.SendAsync("MESSAGE", res);
         }
         catch (Exception e)
         {
-            await Clients.Caller.SendAsync("ERREUR|" + e.Message);
+            await Clients.Caller.SendAsync("MESSAGE", "ERREUR|" + e.Message);
         }
     }
 
@@ -231,12 +259,12 @@ public class MIDApi : Hub
         try
         {
             string res = Query(Guid.Parse(gameId), playerNum, query);
-            await Clients.Caller.SendAsync(res);
-            await Clients.Group(gameId).SendAsync("REFRESH");
+            await Clients.Group(gameId).SendAsync("MESSAGE", "REFRESH");
+            await Clients.Caller.SendAsync("MESSAGE", res);
         }
         catch (Exception e)
         {
-            await Clients.Caller.SendAsync("ERREUR|" + e.Message);
+            await Clients.Caller.SendAsync("MESSAGE", "ERREUR|" + e.Message);
         }
     }
 
@@ -256,8 +284,8 @@ public class MIDApi : Hub
             if (obj != null)
             {
                 Tours tours = (Tours)obj;
-                await HUBCONTEXT.Clients.Group(tours.GameId.ToString()).SendAsync("REFRESH");
-                await HUBCONTEXT.Clients.User(Games[tours.GameId].Clients[tours.GetWhosTurnItIs()]).SendAsync(message);
+                await HUBCONTEXT.Clients.Group(tours.GameId.ToString()).SendAsync("MESSAGE", "REFRESH");
+                await HUBCONTEXT.Clients.User(Games[tours.GameId].Clients[tours.GetWhosTurnItIs()]).SendAsync("MESSAGE", message);
             }
         }
         catch (Exception e)
@@ -278,8 +306,8 @@ public class MIDApi : Hub
             if (obj != null)
             {
                 Tours tours = (Tours)obj;
-                await HUBCONTEXT.Clients.Group(tours.GameId.ToString()).SendAsync("REFRESH");
-                await HUBCONTEXT.Clients.Group(tours.GameId.ToString()).SendAsync("END");
+                await HUBCONTEXT.Clients.Group(tours.GameId.ToString()).SendAsync("MESSAGE", "REFRESH");
+                await HUBCONTEXT.Clients.Group(tours.GameId.ToString()).SendAsync("MESSAGE", "END");
             }
         }
         catch (Exception e)

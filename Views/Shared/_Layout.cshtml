@@ -1,11 +1,13 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - MID</title>
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 </head>
+
 <body>
     <nav>
         <a href="/">
@@ -19,4 +21,46 @@
         <h1>MineIntoTheDeep</h1>
     </footer>
 </body>
+
 </html>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.1/signalr.js"></script>
+<script>
+    const connection = new signalR.HubConnectionBuilder()
+        .withUrl("/playershub")
+        .build();
+
+    connection.start().then(join)
+
+    connection.on("MESSAGE", function (message) {
+        let elements = message.split("|");
+        switch (elements[0]) {
+            case "REFRESH":
+                console.log("Refreshed !");
+                location.reload()
+                break;
+            case "ERREUR":
+                console.error("Erreur côté serveur : ", elements[1]);
+                break;
+            case "DEBUT_PARTIE":
+                sessionStorage.setItem("playerNum", elements[1]);
+                break;
+            default:
+                console.log("De serveur : ", message);
+        }
+    })
+
+    function join() {
+        let playerNum = sessionStorage.getItem("playerNum");
+        let gameId = sessionStorage.getItem("GameId");
+
+        if (playerNum != null && gameId != null) {
+            connection.invoke("ReJoinGameAsync", gameId, parseInt(playerNum));
+        } else if (playerNum == null && gameId != null) {
+            connection.invoke("JoinGameAsync", gameId, "HOST");
+        } else {
+            console.log("GameId null !");
+        }
+    }
+
+</script>
