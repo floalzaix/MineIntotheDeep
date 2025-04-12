@@ -90,9 +90,13 @@ namespace MineIntoTheDeep.Models
         {
             try
             {
-                Mineur mineur = Mineurs[index];
-                Mineurs.Remove(mineur);
-                Carte.Mineurs.Remove(mineur);
+                if (Mineurs.Count > 1) {
+                    Mineur mineur = Mineurs[index];
+                    Mineurs.Remove(mineur);
+                    Carte.Mineurs.Remove(mineur);
+                } else {
+                    return "NOK";
+                }
             }
             catch (Exception)
             {
@@ -239,7 +243,7 @@ namespace MineIntoTheDeep.Models
         /// Gets th current state of the map
         /// </summary>
         /// <returns> 
-        /// 1|350|Fer|-1 where the first is depth the second the value of the bloc
+        /// 1;350;Fer;-1|... where the first is depth the second the value of the bloc
         /// the thirs the type of the bloc and finally the last the joueur number if
         /// there is a mineur on the bloc.  
         /// </returns>
@@ -301,7 +305,7 @@ namespace MineIntoTheDeep.Models
                     return "NOK";
                 }
 
-                if (ret != "NOK") {
+                if (ret != "NOK" && !ret.Contains(';') && !ret.Contains("SCORES")) {
                     Actions--;
                 }
 

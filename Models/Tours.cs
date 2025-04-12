@@ -9,18 +9,24 @@ namespace MineIntoTheDeep.Models
         public static readonly int TIME_PER_TURN = 60 * 1000;
 
         // Instance variables
-        public Guid Id { get; init; } = Guid.NewGuid();
+        public Guid GameId { get; init; }
         public Carte Carte { get; init; }
         public Joueur[] Joueurs { get; init; }
         public int Index { get; set; }
         public Queue<int> Turns { get; set; }
         public int[] CurrentTurns { get; set; }
+        public bool Ongoing { get; set; } = true;
+        public int T { get; set; } = 0;
+
+        // Events
+        public event EventHandler<string>? OnNext;
 
         private readonly System.Timers.Timer timer;
 
         // Constructors
-        public Tours(Carte carte, Joueur[] joueurs, int index = 0)
+        public Tours(Guid gameId, Carte carte, Joueur[] joueurs, int index = 0)
         {
+            GameId = gameId;
             Carte = carte;
             Joueurs = joueurs;
             Index = index;
@@ -44,24 +50,30 @@ namespace MineIntoTheDeep.Models
         /// </summary>
         public void Next()
         {
-            bool en = timer.Enabled;
-            if (en)
-            {
-                timer.Stop();
-            }
-            Joueurs[CurrentTurns[Index]].Actions = 0;
-            Index++;
-            if (Index >= Turns.Count)
-            {
-                Index = 0;
-                Turns.Enqueue(Turns.Dequeue());
-                CurrentTurns = [.. Turns];
-                Carte.Miner();
-            }
-            Joueurs[CurrentTurns[Index]].Actions = NB_MAX_ACTIONS_PER_TURN;
-            if (en)
-            {
-                timer.Start();
+            if (Ongoing) {
+                bool en = timer.Enabled;
+                if (en)
+                {
+                    timer.Stop();
+                }
+                Joueurs[CurrentTurns[Index]].Actions = 0;
+                Index++;
+                if (Index >= Turns.Count)
+                {
+                    Index = 0;
+                    T++;
+                    Turns.Enqueue(Turns.Dequeue());
+                    CurrentTurns = [.. Turns];
+                    Carte.Miner();
+                }
+                Joueurs[CurrentTurns[Index]].Actions = NB_MAX_ACTIONS_PER_TURN;
+                if (en)
+                {
+                    timer.Start();
+                }
+                OnNext?.Invoke(this, $"DEBUT_TOUR|{T}");
+            } else {
+                throw new InvalidOperationException("The game has ended you cannot call Next()");
             }
         }
 
@@ -72,12 +84,14 @@ namespace MineIntoTheDeep.Models
 
         public void Start()
         {
+            Ongoing = true;
             timer.Enabled = true;
             timer.Start();
         }
 
         public void Stop()
         {
+            Ongoing = false;
             Joueurs[CurrentTurns[Index]].Actions = 0;
             timer.Stop();
             timer.Dispose();

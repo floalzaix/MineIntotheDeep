@@ -27,7 +27,7 @@ namespace MineIntoTheDeep.Models
         //
 
         // Properties
-        public Guid Id { get; set; } = Guid.NewGuid();
+        public Guid GameId { get; set; }
         public int NumberOfPlayer { get; init; }
         public int Size { get; init; } // Like size x size (6 x 6 or 9 x 9)
         public int Depth { get; init; }
@@ -40,14 +40,18 @@ namespace MineIntoTheDeep.Models
         // Player related variables
         public List<Mineur> Mineurs { get; init; }
 
+        // Events
+        public event EventHandler<string>? OnEnd;
+
         // Constructors
-        public Carte(int numberOfPlayer)
+        public Carte(Guid gameId, int numberOfPlayer)
         {
             if (numberOfPlayer > 9)
             {
                 throw new ArgumentException("The number of players can not be > to 9 ! ");
             }
-
+            
+            GameId = gameId;
             NumberOfPlayer = numberOfPlayer;
 
             if (NumberOfPlayer > 6)
@@ -172,7 +176,7 @@ namespace MineIntoTheDeep.Models
                             if (m != null) {
                                 m.Joueur.Score -= 1000;
                             }
-                            // DECLENCHER EVT
+                            OnEnd?.Invoke(this, "END");
                         } else {
                             TopLayer[x, y] = Tunnels[x, y].Pop();
                             
