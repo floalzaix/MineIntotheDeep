@@ -1,16 +1,16 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/MineIntoTheDeep/css/site.aru21jz0sk.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"aru21jz0sk"},{"Name":"integrity","Value":"sha256-yvrO\u002BvJN9IDhnP3Q4tixNzqA2BrjNZxiD3oI84a8WnA="},{"Name":"label","Value":"_content/MineIntoTheDeep/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3684"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022yvrO\u002BvJN9IDhnP3Q4tixNzqA2BrjNZxiD3oI84a8WnA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 11 Apr 2025 21:21:14 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MineIntoTheDeep/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ogm1JFri68t803FhTBeNpIG2Zz0zJ32kM73fOrKAFhQ="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2997"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ogm1JFri68t803FhTBeNpIG2Zz0zJ32kM73fOrKAFhQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 11 Apr 2025 20:52:32 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MineIntoTheDeep/css/site.ux6yaiuseb.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ux6yaiuseb"},{"Name":"integrity","Value":"sha256-ogm1JFri68t803FhTBeNpIG2Zz0zJ32kM73fOrKAFhQ="},{"Name":"label","Value":"_content/MineIntoTheDeep/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2997"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ogm1JFri68t803FhTBeNpIG2Zz0zJ32kM73fOrKAFhQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 11 Apr 2025 20:52:32 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-yvrO\u002BvJN9IDhnP3Q4tixNzqA2BrjNZxiD3oI84a8WnA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3684"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022yvrO\u002BvJN9IDhnP3Q4tixNzqA2BrjNZxiD3oI84a8WnA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 11 Apr 2025 21:21:14 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MineIntoTheDeep/img/base.p29n4gccsa.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\base.png'))</AssetFile>

@@ -168,7 +168,11 @@ namespace MineIntoTheDeep.Models
                     if (TopLayer[x, y] == null || TopLayer[x, y].Broken())
                     {
                         if (Tunnels[x, y].Count == 0) {
-                            // TODO
+                            Mineur? m = GetMineurThere(x, y);
+                            if (m != null) {
+                                m.Joueur.Score -= 1000;
+                            }
+                            // DECLENCHER EVT
                         } else {
                             TopLayer[x, y] = Tunnels[x, y].Pop();
                             

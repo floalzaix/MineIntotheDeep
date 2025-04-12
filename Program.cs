@@ -3,9 +3,10 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages(options =>
     {
-        options.RootDirectory = "/Views"; // <-- redéfinit le dossier racine
+        options.RootDirectory = "/Views"; 
     });
 
+// Adds the sessions
 builder.Services.AddMemoryCache();
 builder.Services.AddSession(options => {
     options.IdleTimeout = TimeSpan.FromDays(1);
@@ -13,13 +14,15 @@ builder.Services.AddSession(options => {
     options.Cookie.IsEssential = true;
 });
 
+// Adding signalR
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+
     app.UseHsts();
 }
 

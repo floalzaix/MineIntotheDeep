@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.VisualBasic;
 using MineIntoTheDeep.Models;
+using MineIntoTheDeep.Models.Blocs;
 
 namespace MineIntoTheDeep.Views;
 
@@ -35,14 +36,15 @@ class GameModel : PageModel {
                 string[] preArgs = PreQuery.Split('|');
                 string preAction = preArgs[0];
 
+                const string MINEUR = "MINEUR";
                 switch (action) {
                     case "CASE":
-                        if (preAction == "MINEUR") {
+                        if (preAction == MINEUR) {
                             res = MIDApi.Query(GameId, (int) CurrentPlayer, $"DEPLACER|{preArgs[1]}|{args[1]}|{args[2]}");
                         }
                         break;
                     case "RETIRER":
-                        if (preAction == "MINEUR") {
+                        if (preAction == MINEUR) {
                             res = MIDApi.Query(GameId, (int) CurrentPlayer, $"RETIRER|{preArgs[1]}");
                         }
                         break;
@@ -52,13 +54,20 @@ class GameModel : PageModel {
                         }
                         break;
                     case "AMELIORER":
-                        if (preAction == "MINEUR") {
+                        if (preAction == MINEUR) {
                             res = MIDApi.Query(GameId, (int) CurrentPlayer, $"AMELIORER|{preArgs[1]}");
                         }
                         break;
                     case "SONAR":
                         if (preAction == "CASE") {
                             res = MIDApi.Query(GameId, (int) CurrentPlayer, $"SONAR|{preArgs[1]}|{preArgs[2]}");
+                        } else if (preAction == MINEUR) {
+                            Bloc? bloc = Joueurs?.First(j => j.Num == CurrentPlayer).Mineurs[int.Parse(preArgs[1])].BlocUnder;
+                            if (bloc != null) {
+                                res = MIDApi.Query(GameId, (int) CurrentPlayer, $"SONAR|{bloc.X}|{bloc.Y}");
+                            } else {
+                                res = "NOK";
+                            }
                         }
                         break;
                     default:
