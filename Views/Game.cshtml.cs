@@ -36,7 +36,7 @@ class GameModel : PageModel {
                 string[] preArgs = PreQuery.Split('|');
                 string preAction = preArgs[0];
 
-                const string MINEUR = "MINEUR";
+                const string MINEUR = "MINEUR_OWN";
                 switch (action) {
                     case "CASE":
                         if (preAction == MINEUR) {
@@ -61,7 +61,7 @@ class GameModel : PageModel {
                     case "SONAR":
                         if (preAction == "CASE") {
                             res = MIDApi.Query(GameId, (int) CurrentPlayer, $"SONAR|{preArgs[1]}|{preArgs[2]}");
-                        } else if (preAction == MINEUR) {
+                        } else if (preAction == MINEUR || preAction == "MINEUR") {
                             Bloc? bloc = Joueurs?.First(j => j.Num == CurrentPlayer).Mineurs[int.Parse(preArgs[1])].BlocUnder;
                             if (bloc != null) {
                                 res = MIDApi.Query(GameId, (int) CurrentPlayer, $"SONAR|{bloc.X}|{bloc.Y}");

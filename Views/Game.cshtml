@@ -14,11 +14,13 @@
                             @{
                                 Mineur? mineur = Model.Carte.GetMineurThere(x, y);
                                 if (mineur != null && Model.CurrentPlayer == mineur.Joueur.Num) {
-                                    <a href="/Game?preQuery=@Model.PreQuery&query=MINEUR|@(mineur.GetNum())">
+                                    <a href="/Game?preQuery=@Model.PreQuery&query=MINEUR_OWN|@(mineur.GetNum())">
                                         @await Html.PartialAsync("_Mineur", mineur)
                                     </a>
                                 } else if (mineur != null) {
-                                    @await Html.PartialAsync("_Mineur", mineur)
+                                    <a href="/Game?preQuery=@Model.PreQuery&query=MINEUR|@(mineur.GetNum())">
+                                        @await Html.PartialAsync("_Mineur", mineur)
+                                    </a>
                                 }
                             }
                             <a href="/Game?preQuery=@Model.PreQuery&query=CASE|@x|@y">
